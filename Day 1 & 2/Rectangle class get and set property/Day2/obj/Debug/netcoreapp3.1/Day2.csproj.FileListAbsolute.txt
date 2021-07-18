@@ -1,0 +1,22 @@
+C:\Users\Arvind.Sahu\source\repos\Day2\Day2\obj\Debug\netcoreapp3.1\Day2.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\Day2\Day2\obj\Debug\netcoreapp3.1\Day2.AssemblyInfoInputs.cache
+C:\Users\Arvind.Sahu\source\repos\Day2\Day2\obj\Debug\netcoreapp3.1\Day2.AssemblyInfo.cs
+C:\Users\Arvind.Sahu\source\repos\Day2\Day2\bin\Debug\netcoreapp3.1\Day2.exe
+C:\Users\Arvind.Sahu\source\repos\Day2\Day2\bin\Debug\netcoreapp3.1\Day2.deps.json
+C:\Users\Arvind.Sahu\source\repos\Day2\Day2\bin\Debug\netcoreapp3.1\Day2.runtimeconfig.json
+C:\Users\Arvind.Sahu\source\repos\Day2\Day2\bin\Debug\netcoreapp3.1\Day2.runtimeconfig.dev.json
+C:\Users\Arvind.Sahu\source\repos\Day2\Day2\bin\Debug\netcoreapp3.1\Day2.dll
+C:\Users\Arvind.Sahu\source\repos\Day2\Day2\bin\Debug\netcoreapp3.1\Day2.pdb
+C:\Users\Arvind.Sahu\source\repos\Day2\Day2\obj\Debug\netcoreapp3.1\Day2.dll
+C:\Users\Arvind.Sahu\source\repos\Day2\Day2\obj\Debug\netcoreapp3.1\Day2.pdb
+C:\Users\Arvind.Sahu\source\repos\C#\Rectangle class get and set property\Day2\bin\Debug\netcoreapp3.1\Day2.exe
+C:\Users\Arvind.Sahu\source\repos\C#\Rectangle class get and set property\Day2\bin\Debug\netcoreapp3.1\Day2.deps.json
+C:\Users\Arvind.Sahu\source\repos\C#\Rectangle class get and set property\Day2\bin\Debug\netcoreapp3.1\Day2.runtimeconfig.json
+C:\Users\Arvind.Sahu\source\repos\C#\Rectangle class get and set property\Day2\bin\Debug\netcoreapp3.1\Day2.runtimeconfig.dev.json
+C:\Users\Arvind.Sahu\source\repos\C#\Rectangle class get and set property\Day2\bin\Debug\netcoreapp3.1\Day2.dll
+C:\Users\Arvind.Sahu\source\repos\C#\Rectangle class get and set property\Day2\bin\Debug\netcoreapp3.1\Day2.pdb
+C:\Users\Arvind.Sahu\source\repos\C#\Rectangle class get and set property\Day2\obj\Debug\netcoreapp3.1\Day2.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\C#\Rectangle class get and set property\Day2\obj\Debug\netcoreapp3.1\Day2.AssemblyInfoInputs.cache
+C:\Users\Arvind.Sahu\source\repos\C#\Rectangle class get and set property\Day2\obj\Debug\netcoreapp3.1\Day2.AssemblyInfo.cs
+C:\Users\Arvind.Sahu\source\repos\C#\Rectangle class get and set property\Day2\obj\Debug\netcoreapp3.1\Day2.dll
+C:\Users\Arvind.Sahu\source\repos\C#\Rectangle class get and set property\Day2\obj\Debug\netcoreapp3.1\Day2.pdb

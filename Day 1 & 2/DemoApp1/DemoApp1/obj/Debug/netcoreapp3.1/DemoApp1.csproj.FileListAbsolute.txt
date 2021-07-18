@@ -1,0 +1,11 @@
+C:\Users\Arvind.Sahu\source\repos\Training\DemoApp1\DemoApp1\bin\Debug\netcoreapp3.1\DemoApp1.exe
+C:\Users\Arvind.Sahu\source\repos\Training\DemoApp1\DemoApp1\bin\Debug\netcoreapp3.1\DemoApp1.deps.json
+C:\Users\Arvind.Sahu\source\repos\Training\DemoApp1\DemoApp1\bin\Debug\netcoreapp3.1\DemoApp1.runtimeconfig.json
+C:\Users\Arvind.Sahu\source\repos\Training\DemoApp1\DemoApp1\bin\Debug\netcoreapp3.1\DemoApp1.runtimeconfig.dev.json
+C:\Users\Arvind.Sahu\source\repos\Training\DemoApp1\DemoApp1\bin\Debug\netcoreapp3.1\DemoApp1.dll
+C:\Users\Arvind.Sahu\source\repos\Training\DemoApp1\DemoApp1\bin\Debug\netcoreapp3.1\DemoApp1.pdb
+C:\Users\Arvind.Sahu\source\repos\Training\DemoApp1\DemoApp1\obj\Debug\netcoreapp3.1\DemoApp1.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\Training\DemoApp1\DemoApp1\obj\Debug\netcoreapp3.1\DemoApp1.AssemblyInfoInputs.cache
+C:\Users\Arvind.Sahu\source\repos\Training\DemoApp1\DemoApp1\obj\Debug\netcoreapp3.1\DemoApp1.AssemblyInfo.cs
+C:\Users\Arvind.Sahu\source\repos\Training\DemoApp1\DemoApp1\obj\Debug\netcoreapp3.1\DemoApp1.dll
+C:\Users\Arvind.Sahu\source\repos\Training\DemoApp1\DemoApp1\obj\Debug\netcoreapp3.1\DemoApp1.pdb

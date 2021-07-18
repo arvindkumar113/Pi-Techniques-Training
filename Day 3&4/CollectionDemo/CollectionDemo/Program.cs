@@ -15,6 +15,8 @@ namespace CollectionDemo
         public string name;
         public int empNo;
         public double salary;
+
+        //this is a constructor
         Employee(string nam, int emp, double amt)
         {
             name = nam;

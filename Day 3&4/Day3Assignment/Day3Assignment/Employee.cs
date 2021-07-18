@@ -32,6 +32,11 @@ namespace Day3Assignment
             empNo++;
         }
 
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         #region Method
         public abstract double CalculateSal();
 

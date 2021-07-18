@@ -1,0 +1,15 @@
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\obj\Debug\CollectionDemo.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\bin\Debug\CollectionDemo.exe.config
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\bin\Debug\CollectionDemo.exe
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\bin\Debug\CollectionDemo.pdb
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\obj\Debug\CollectionDemo.exe
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\obj\Debug\CollectionDemo.pdb
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\bin\Debug\MediaBrowser.Common.dll
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\bin\Debug\MediaBrowser.Model.dll
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\bin\Debug\System.Memory.dll
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\bin\Debug\System.Buffers.dll
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\bin\Debug\MediaBrowser.Common.pdb
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\bin\Debug\MediaBrowser.Model.pdb
+C:\Users\Arvind.Sahu\source\repos\Training\CollectionDemo\CollectionDemo\obj\Debug\CollectionDemo.csproj.CopyComplete

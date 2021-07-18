@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapUsingGenericClass", "SwapUsingGenericClass\SwapUsingGenericClass.csproj", "{F19FAC97-098A-4934-B317-7BCA94C5998E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F19FAC97-098A-4934-B317-7BCA94C5998E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F19FAC97-098A-4934-B317-7BCA94C5998E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F19FAC97-098A-4934-B317-7BCA94C5998E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F19FAC97-098A-4934-B317-7BCA94C5998E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22F1E26C-F15D-4C5A-B11D-95EDE0402163}
+	EndGlobalSection
+EndGlobal

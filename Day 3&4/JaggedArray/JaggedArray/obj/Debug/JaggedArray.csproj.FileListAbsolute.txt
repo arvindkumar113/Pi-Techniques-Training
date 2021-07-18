@@ -1,0 +1,6 @@
+C:\Users\Arvind.Sahu\source\repos\JaggedArray\JaggedArray\obj\Debug\JaggedArray.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\JaggedArray\JaggedArray\bin\Debug\JaggedArray.exe.config
+C:\Users\Arvind.Sahu\source\repos\JaggedArray\JaggedArray\bin\Debug\JaggedArray.exe
+C:\Users\Arvind.Sahu\source\repos\JaggedArray\JaggedArray\bin\Debug\JaggedArray.pdb
+C:\Users\Arvind.Sahu\source\repos\JaggedArray\JaggedArray\obj\Debug\JaggedArray.exe
+C:\Users\Arvind.Sahu\source\repos\JaggedArray\JaggedArray\obj\Debug\JaggedArray.pdb

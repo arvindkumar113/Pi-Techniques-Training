@@ -1,0 +1,6 @@
+C:\Users\Arvind.Sahu\source\repos\SwapUsingGenericClass\SwapUsingGenericClass\bin\Debug\SwapUsingGenericClass.exe.config
+C:\Users\Arvind.Sahu\source\repos\SwapUsingGenericClass\SwapUsingGenericClass\bin\Debug\SwapUsingGenericClass.exe
+C:\Users\Arvind.Sahu\source\repos\SwapUsingGenericClass\SwapUsingGenericClass\bin\Debug\SwapUsingGenericClass.pdb
+C:\Users\Arvind.Sahu\source\repos\SwapUsingGenericClass\SwapUsingGenericClass\obj\Debug\SwapUsingGenericClass.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\SwapUsingGenericClass\SwapUsingGenericClass\obj\Debug\SwapUsingGenericClass.exe
+C:\Users\Arvind.Sahu\source\repos\SwapUsingGenericClass\SwapUsingGenericClass\obj\Debug\SwapUsingGenericClass.pdb

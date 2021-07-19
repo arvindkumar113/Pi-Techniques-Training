@@ -1,0 +1,14 @@
+C:\Users\Arvind.Sahu\source\repos\LoginFormDemo1\LoginFormDemo1\bin\Debug\LoginFormDemo1.exe.config
+C:\Users\Arvind.Sahu\source\repos\LoginFormDemo1\LoginFormDemo1\bin\Debug\LoginFormDemo1.exe
+C:\Users\Arvind.Sahu\source\repos\LoginFormDemo1\LoginFormDemo1\bin\Debug\LoginFormDemo1.pdb
+C:\Users\Arvind.Sahu\source\repos\LoginFormDemo1\LoginFormDemo1\obj\Debug\LoginFormDemo1.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\LoginFormDemo1\LoginFormDemo1\obj\Debug\MainWindow.g.cs
+C:\Users\Arvind.Sahu\source\repos\LoginFormDemo1\LoginFormDemo1\obj\Debug\App.g.cs
+C:\Users\Arvind.Sahu\source\repos\LoginFormDemo1\LoginFormDemo1\obj\Debug\LoginFormDemo1_MarkupCompile.cache
+C:\Users\Arvind.Sahu\source\repos\LoginFormDemo1\LoginFormDemo1\obj\Debug\LoginFormDemo1_MarkupCompile.lref
+C:\Users\Arvind.Sahu\source\repos\LoginFormDemo1\LoginFormDemo1\obj\Debug\MainWindow.baml
+C:\Users\Arvind.Sahu\source\repos\LoginFormDemo1\LoginFormDemo1\obj\Debug\LoginFormDemo1.g.resources
+C:\Users\Arvind.Sahu\source\repos\LoginFormDemo1\LoginFormDemo1\obj\Debug\LoginFormDemo1.Properties.Resources.resources
+C:\Users\Arvind.Sahu\source\repos\LoginFormDemo1\LoginFormDemo1\obj\Debug\LoginFormDemo1.csproj.GenerateResource.cache
+C:\Users\Arvind.Sahu\source\repos\LoginFormDemo1\LoginFormDemo1\obj\Debug\LoginFormDemo1.exe
+C:\Users\Arvind.Sahu\source\repos\LoginFormDemo1\LoginFormDemo1\obj\Debug\LoginFormDemo1.pdb

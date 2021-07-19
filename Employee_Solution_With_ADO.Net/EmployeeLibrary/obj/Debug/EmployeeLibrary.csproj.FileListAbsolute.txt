@@ -1,0 +1,5 @@
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution_With_ADO.Net\EmployeeLibrary\bin\Debug\EmployeeLibrary.dll
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution_With_ADO.Net\EmployeeLibrary\bin\Debug\EmployeeLibrary.pdb
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution_With_ADO.Net\EmployeeLibrary\obj\Debug\EmployeeLibrary.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution_With_ADO.Net\EmployeeLibrary\obj\Debug\EmployeeLibrary.dll
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution_With_ADO.Net\EmployeeLibrary\obj\Debug\EmployeeLibrary.pdb

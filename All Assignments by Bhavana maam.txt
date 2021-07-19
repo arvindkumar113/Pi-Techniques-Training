@@ -13,7 +13,7 @@
 
 
 
-             Employee Assignment
+             Employee Assignment     ==> Done
 
 
 	Start new Project as Class Library. Name it as HRLib
@@ -99,21 +99,21 @@
 
 1	Employee assignment(description is below)
 
-2	difference between string and StringBuilder     => done
+2	difference between string and StringBuilder             ==> done
 
-3	Jagged array =>done
+3	Jagged array 						==>done
 
-4	difference between ref and out  =>done
+4	difference between ref and out  			==>done
 
-5	swap number using generic class		=> done
+5	swap number using generic class				==> done
 
-6	interface : IEnumerable / IList / ICollection
+6	interface : IEnumerable / IList / ICollection		==>
 
-7	indexer in C#
+7	indexer in C#    					==> Done
 
 8	what is cloaining? what is shellow cloaning and deep cloaning?
 
-9	Collection example  =>	  done
+9	Collection example  					==> Done
 
 10	Take array as a method input and  return min and max value of a given array		====> done
 
@@ -126,10 +126,10 @@ atleast show 4 different ways of return multiple values from a method
 Tip: Write class with separate methods to check each functionality and one public method which will be called by the client to verify the password
 
 
-12	what is finalize and dispose (IDisposable) method in C#   ===>done
+12	what is finalize and dispose (IDisposable) method in C#     ==>done
 
 
-13.	Create class library project
+13.	Create class library project				    ==>> Done
 	Create class Customer
 		CustomerName, City, Country
 
@@ -454,7 +454,7 @@ Code for everything
 
 5.	Async and Await with demo code
 
-6.	SOLID Principle for development
+6.	SOLID Principle for development				==> Done
 
 
 
@@ -462,14 +462,14 @@ Code for everything
 
 
 1.	Assignment to make a calculator
-2.	what is delegate
+2.	what is delegate (therory)		
 3.	Extention Method
 
 
 <<=============29th June==========>>
 
 1.	IEnumerable and IQueryable difference
-2.	Action, Func, Predicate Deligate difference
+2.	Action, Func, Predicate Deligate difference  		  ==> Done
 
 
 <<===============30th June==============>>
@@ -495,19 +495,27 @@ Started with Linq Query
 1.	Make 5 radio button with names mr, mrs, dr, ms, all
 	and clicking on radio button display all details of customer which have such title name
 
+				=====>> Done
+
 2.	from order table (orderid, company name, orderdate, ship date, freight), display all on display and if freight value is less than 0 then show error using error handler.
+
+				=====>> Done
 
 3.	display (productid, productname, unitinstock, unitprice, unitinstock) and add generate one column in xaml as netstock as unitprice * unitinstock
 
 Hint ;- use join query and multibinding
 
+				=====>> 
+
 4.	display category name and their all products and price in other column
 	Hint:- take autogenarated column= false and table within table
+
+				====>> 
 
 5.	Display all table name from database using expand buttonn as it happens in mssql database
 
 
-========= 5th July ===========
+<<========= 5th July ===========>>
 
 Started with Data Annotation  
 
@@ -530,7 +538,6 @@ Assignment via mail
 
 
 ===========Saturday sunday 10th and 11th July=======
-
 
 
 

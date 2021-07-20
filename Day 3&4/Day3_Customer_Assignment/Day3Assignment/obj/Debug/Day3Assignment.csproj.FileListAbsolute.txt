@@ -1,0 +1,6 @@
+C:\Users\Arvind.Sahu\source\repos\Training\Day3Assignment\Day3Assignment\bin\Debug\Day3Assignment.exe.config
+C:\Users\Arvind.Sahu\source\repos\Training\Day3Assignment\Day3Assignment\bin\Debug\Day3Assignment.exe
+C:\Users\Arvind.Sahu\source\repos\Training\Day3Assignment\Day3Assignment\bin\Debug\Day3Assignment.pdb
+C:\Users\Arvind.Sahu\source\repos\Training\Day3Assignment\Day3Assignment\obj\Debug\Day3Assignment.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\Training\Day3Assignment\Day3Assignment\obj\Debug\Day3Assignment.exe
+C:\Users\Arvind.Sahu\source\repos\Training\Day3Assignment\Day3Assignment\obj\Debug\Day3Assignment.pdb

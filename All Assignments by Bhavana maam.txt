@@ -120,6 +120,7 @@
 Note: do not sort array. Search in unsorted array for min and max value
 atleast show 4 different ways of return multiple values from a method
 
+								====>> Done
 
 11	Write a code which checks if the password is complex enough i.e. contains letter, digit and symbol. Minimum length of the password is six characters and one letter capital		====> done
 

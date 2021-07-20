@@ -1,0 +1,11 @@
+C:\Users\Arvind.Sahu\source\repos\Entity_Framework_Using_Linq_Query\Entity_Framework_Using_Linq_Query\bin\Debug\Entity_Framework_Using_Linq_Query.exe.config
+C:\Users\Arvind.Sahu\source\repos\Entity_Framework_Using_Linq_Query\Entity_Framework_Using_Linq_Query\bin\Debug\Entity_Framework_Using_Linq_Query.exe
+C:\Users\Arvind.Sahu\source\repos\Entity_Framework_Using_Linq_Query\Entity_Framework_Using_Linq_Query\bin\Debug\Entity_Framework_Using_Linq_Query.pdb
+C:\Users\Arvind.Sahu\source\repos\Entity_Framework_Using_Linq_Query\Entity_Framework_Using_Linq_Query\bin\Debug\EntityFramework.dll
+C:\Users\Arvind.Sahu\source\repos\Entity_Framework_Using_Linq_Query\Entity_Framework_Using_Linq_Query\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Arvind.Sahu\source\repos\Entity_Framework_Using_Linq_Query\Entity_Framework_Using_Linq_Query\bin\Debug\EntityFramework.xml
+C:\Users\Arvind.Sahu\source\repos\Entity_Framework_Using_Linq_Query\Entity_Framework_Using_Linq_Query\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Arvind.Sahu\source\repos\Entity_Framework_Using_Linq_Query\Entity_Framework_Using_Linq_Query\obj\Debug\Entity_Framework_Using_Linq_Query.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\Entity_Framework_Using_Linq_Query\Entity_Framework_Using_Linq_Query\obj\Debug\Entity_Framework_Using_Linq_Query.csproj.CopyComplete
+C:\Users\Arvind.Sahu\source\repos\Entity_Framework_Using_Linq_Query\Entity_Framework_Using_Linq_Query\obj\Debug\Entity_Framework_Using_Linq_Query.exe
+C:\Users\Arvind.Sahu\source\repos\Entity_Framework_Using_Linq_Query\Entity_Framework_Using_Linq_Query\obj\Debug\Entity_Framework_Using_Linq_Query.pdb

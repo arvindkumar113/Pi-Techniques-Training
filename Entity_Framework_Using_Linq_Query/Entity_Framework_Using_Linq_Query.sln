@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity_Framework_Using_Linq_Query", "Entity_Framework_Using_Linq_Query\Entity_Framework_Using_Linq_Query.csproj", "{2B1B3D9A-2095-4F18-84D9-E6FF9D1BC360}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B1B3D9A-2095-4F18-84D9-E6FF9D1BC360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1B3D9A-2095-4F18-84D9-E6FF9D1BC360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1B3D9A-2095-4F18-84D9-E6FF9D1BC360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1B3D9A-2095-4F18-84D9-E6FF9D1BC360}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {944B58A4-C0E9-408D-A618-A139EC923E5E}
+	EndGlobalSection
+EndGlobal

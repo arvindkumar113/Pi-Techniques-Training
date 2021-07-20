@@ -107,7 +107,7 @@
 
 5	swap number using generic class				==> done
 
-6	interface : IEnumerable / IList / ICollection		==>
+6	interface : IEnumerable / IList / ICollection		==> Done
 
 7	indexer in C#    					==> Done
 

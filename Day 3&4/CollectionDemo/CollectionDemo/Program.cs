@@ -10,7 +10,7 @@ namespace CollectionDemo
 {
 
     //Structure
-    struct Employee
+    public struct Employee
     {
         public string name;
         public int empNo;
@@ -29,15 +29,6 @@ namespace CollectionDemo
 
     class Program
     {
-
-
-       
-
-
-
-
-
-
 
         static int[] SortingArray(int[] numArray)
         {
@@ -75,6 +66,17 @@ namespace CollectionDemo
             //numArray[1] = 120;
             //numArray[2] = 100;
             //numArray[2] = 130;
+
+
+            // Collection types
+            //1. ArrayList  --manipulates with any type of data
+            //2. List  --deals with similar type of data
+            //3. Dictionary --deals with key-value pair
+            //4. Hashtable --delas with key value pair 
+            //5. SortedList --combination of array and hash table, used index and key to find the element
+            //6. Stack --LIFO using push and pop
+            //7. Queue --LIFO using enqueue and dequeue
+
 
             //ArrayList countryList = new ArrayList();
 

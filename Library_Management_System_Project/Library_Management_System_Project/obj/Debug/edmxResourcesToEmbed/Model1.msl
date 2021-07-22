@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Library_Management_SystemModelStoreContainer" CdmEntityContainer="Library_Management_SystemEntities">
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="Library_Management_SystemModel.Book">
+        <MappingFragment StoreEntitySet="Book">
+          <ScalarProperty Name="BookCode" ColumnName="BookCode" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Issuable" ColumnName="Issuable" />
+          <ScalarProperty Name="Isissued" ColumnName="Isissued" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IssueBooks">
+      <EntityTypeMapping TypeName="Library_Management_SystemModel.IssueBook">
+        <MappingFragment StoreEntitySet="IssueBook">
+          <ScalarProperty Name="issueCode" ColumnName="issueCode" />
+          <ScalarProperty Name="MemberCode" ColumnName="MemberCode" />
+          <ScalarProperty Name="BookCode" ColumnName="BookCode" />
+          <ScalarProperty Name="IssueDate" ColumnName="IssueDate" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="ActualReturnDate" ColumnName="ActualReturnDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Members">
+      <EntityTypeMapping TypeName="Library_Management_SystemModel.Member">
+        <MappingFragment StoreEntitySet="Member">
+          <ScalarProperty Name="MemberCode" ColumnName="MemberCode" />
+          <ScalarProperty Name="MemberName" ColumnName="MemberName" />
+          <ScalarProperty Name="MemberTypeID" ColumnName="MemberTypeID" />
+          <ScalarProperty Name="NoOfBookIssued" ColumnName="NoOfBookIssued" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MemberTypes">
+      <EntityTypeMapping TypeName="Library_Management_SystemModel.MemberType">
+        <MappingFragment StoreEntitySet="MemberType">
+          <ScalarProperty Name="MemberTypeID" ColumnName="MemberTypeID" />
+          <ScalarProperty Name="MemberType1" ColumnName="MemberType" />
+          <ScalarProperty Name="BooksAllowed" ColumnName="BooksAllowed" />
+          <ScalarProperty Name="DaysAllowed" ColumnName="DaysAllowed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Staffs">
+      <EntityTypeMapping TypeName="Library_Management_SystemModel.Staff">
+        <MappingFragment StoreEntitySet="Staff">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="contact" ColumnName="contact" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

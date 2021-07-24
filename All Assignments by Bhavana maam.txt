@@ -515,6 +515,9 @@ Hint ;- use join query and multibinding
 
 5.	Display all table name from database using expand buttonn as it happens in mssql database
 
+			==>> Done but not working partially
+
+
 
 <<========= 5th July ===========>>
 
@@ -573,7 +576,7 @@ Create WCF Service Application
 
 
 
-------Code First Assignment
+------Code First Assignment   ----->>Currently doing this assignment
 
 •	Start new Project = “EFCodeFirstAssignment”
 

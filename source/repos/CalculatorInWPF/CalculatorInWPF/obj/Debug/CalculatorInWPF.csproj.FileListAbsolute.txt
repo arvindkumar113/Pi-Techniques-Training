@@ -1,0 +1,14 @@
+C:\Users\Arvind.Sahu\source\repos\CalculatorInWPF\CalculatorInWPF\obj\Debug\CalculatorInWPF.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\CalculatorInWPF\CalculatorInWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Arvind.Sahu\source\repos\CalculatorInWPF\CalculatorInWPF\obj\Debug\App.g.cs
+C:\Users\Arvind.Sahu\source\repos\CalculatorInWPF\CalculatorInWPF\obj\Debug\CalculatorInWPF_MarkupCompile.cache
+C:\Users\Arvind.Sahu\source\repos\CalculatorInWPF\CalculatorInWPF\obj\Debug\CalculatorInWPF_MarkupCompile.lref
+C:\Users\Arvind.Sahu\source\repos\CalculatorInWPF\CalculatorInWPF\bin\Debug\CalculatorInWPF.exe.config
+C:\Users\Arvind.Sahu\source\repos\CalculatorInWPF\CalculatorInWPF\bin\Debug\CalculatorInWPF.exe
+C:\Users\Arvind.Sahu\source\repos\CalculatorInWPF\CalculatorInWPF\bin\Debug\CalculatorInWPF.pdb
+C:\Users\Arvind.Sahu\source\repos\CalculatorInWPF\CalculatorInWPF\obj\Debug\MainWindow.baml
+C:\Users\Arvind.Sahu\source\repos\CalculatorInWPF\CalculatorInWPF\obj\Debug\CalculatorInWPF.g.resources
+C:\Users\Arvind.Sahu\source\repos\CalculatorInWPF\CalculatorInWPF\obj\Debug\CalculatorInWPF.Properties.Resources.resources
+C:\Users\Arvind.Sahu\source\repos\CalculatorInWPF\CalculatorInWPF\obj\Debug\CalculatorInWPF.csproj.GenerateResource.cache
+C:\Users\Arvind.Sahu\source\repos\CalculatorInWPF\CalculatorInWPF\obj\Debug\CalculatorInWPF.exe
+C:\Users\Arvind.Sahu\source\repos\CalculatorInWPF\CalculatorInWPF\obj\Debug\CalculatorInWPF.pdb

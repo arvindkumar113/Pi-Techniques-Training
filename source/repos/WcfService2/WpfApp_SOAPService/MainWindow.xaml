@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp_SOAPService.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_SOAPService"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Name="MainPanel" Loaded="MainPanel_Loaded">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Enter product Id" Margin="10"/>
+            <TextBox Margin="10" Width="100" Name="txtpid"/>
+            
+        </StackPanel>
+        <Button Name="product" Content="getProductById" Click="product_Click" Width="150"/>
+        <StackPanel Orientation="Horizontal" Name="datapanel" Background="Aquamarine">
+            <TextBlock Margin="5" Text="{Binding ProductID}"/>
+            <TextBlock Margin="5" Text="{Binding ProductName}"/>
+        </StackPanel>
+
+
+        <DataGrid Name="dgproduct" ItemsSource="{Binding}" Height="500"
+                  AutoGenerateColumns="True" />
+
+    </StackPanel>
+</Window>

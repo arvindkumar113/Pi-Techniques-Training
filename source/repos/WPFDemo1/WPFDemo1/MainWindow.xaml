@@ -1,0 +1,81 @@
+﻿<Window x:Class="WPFDemo1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFDemo1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!--<Grid>
+        <Button Name="btnDemo" Content="Hello......" Click="btnDemo_Click" Margin="379,63,173.6,73" RenderTransformOrigin="0.549,0.25"/>
+        <Button x:Name="btnDemo_Copy" Content="Hello......" Click="btnDemo_Click" Margin="103,10,201.6,362" RenderTransformOrigin="0.549,0.25"/>
+        <Button x:Name="btnDemo_Copy1" Content="Hello......" Click="btnDemo_Click" Margin="78,64,431.6,78" RenderTransformOrigin="0.549,0.25"/>
+
+    </Grid>-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="75*"/>
+        </Grid.ColumnDefinitions>
+
+
+
+        <Label Grid.ColumnSpan="2" Content="Registration Form" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center">
+        </Label>
+        <Label Grid.Row="1" Grid.Column="0" Content="User Nane" HorizontalAlignment="Center" VerticalAlignment="Center">
+        </Label>
+        <Label Grid.Row="2" Grid.Column="0" Content="Address" HorizontalAlignment="Center" VerticalAlignment="Center">
+        </Label>
+        <Label Grid.Row="3" Grid.Column="0" Content="country" HorizontalAlignment="Center" VerticalAlignment="Center">
+        </Label>
+        <Label Grid.Row="4" Grid.Column="0" Content="Gender" HorizontalAlignment="Center" VerticalAlignment="Center">
+        </Label>
+        <Label Grid.Row="5" Grid.Column="0" Content="Hobbies" HorizontalAlignment="Center" VerticalAlignment="Center">
+        </Label>
+
+        <TextBox Grid.Row="1" Grid.Column="1" Name="txtUname" Width="150" Margin="10" HorizontalAlignment="Left" />
+        <TextBox Grid.Row="2" Grid.Column="1" Name="txtAdd" Width="150" Height="50" Margin="10" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow"
+                 VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" SpellCheck.IsEnabled="True"
+                 AcceptsReturn="True" />
+
+        <ComboBox Grid.Row="3" Grid.Column="1" Name="cmbCountry" Width="100" Margin="10" HorizontalAlignment="Left" >
+            <ComboBoxItem>France</ComboBoxItem>
+            <ComboBoxItem IsSelected="True">India</ComboBoxItem>
+            <ComboBoxItem>America</ComboBoxItem>
+            <ComboBoxItem>England</ComboBoxItem>
+        </ComboBox>
+
+        <StackPanel Grid.Row="4" Grid.Column="1" Margin="10" Orientation="Horizontal" Name="cmbGender">
+            <RadioButton Content="Male" Margin="5" GroupName="gender"/>
+            <RadioButton Content="Female" Margin="5" GroupName="gender"></RadioButton>
+            <RadioButton Content="Others" Margin="5" GroupName="gender"></RadioButton>
+        </StackPanel>
+
+        <StackPanel Grid.Row="5" Grid.Column="1" Margin="10" Orientation="Horizontal" >
+            <CheckBox Name="cheReading" Margin="5">Reading</CheckBox>
+            <CheckBox x:Name="chkWriting" Margin="5" >Writing</CheckBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="6" Grid.Column="1" Margin="10" Orientation="Horizontal" >
+            <Button Name="btnSubmit" Content="Submit" Click="btnSubmit_Click" Margin="5"></Button>
+            <Button Name="btnCancell" Content="Cancel" Margin="5" Click="btnCancell_Click"></Button>
+        </StackPanel>
+
+
+
+
+
+
+    </Grid>
+</Window>

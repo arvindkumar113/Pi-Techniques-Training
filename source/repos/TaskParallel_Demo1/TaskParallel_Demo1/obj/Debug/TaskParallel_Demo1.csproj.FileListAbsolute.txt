@@ -1,0 +1,6 @@
+C:\Users\Arvind.Sahu\source\repos\TaskParallel_Demo1\TaskParallel_Demo1\bin\Debug\TaskParallel_Demo1.exe.config
+C:\Users\Arvind.Sahu\source\repos\TaskParallel_Demo1\TaskParallel_Demo1\bin\Debug\TaskParallel_Demo1.exe
+C:\Users\Arvind.Sahu\source\repos\TaskParallel_Demo1\TaskParallel_Demo1\bin\Debug\TaskParallel_Demo1.pdb
+C:\Users\Arvind.Sahu\source\repos\TaskParallel_Demo1\TaskParallel_Demo1\obj\Debug\TaskParallel_Demo1.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\TaskParallel_Demo1\TaskParallel_Demo1\obj\Debug\TaskParallel_Demo1.exe
+C:\Users\Arvind.Sahu\source\repos\TaskParallel_Demo1\TaskParallel_Demo1\obj\Debug\TaskParallel_Demo1.pdb

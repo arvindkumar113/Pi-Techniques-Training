@@ -664,6 +664,13 @@ o	Add one record for each table
 
 
 
+==================Connection string===================
+
+<connectionStrings>
+    <add name="connstr" providerName="System.Data.SqlClient" connectionString="server=(localdb)\MSSQLLocalDB; database=training; integrated security=true;
+" />
+
+
 
 
 

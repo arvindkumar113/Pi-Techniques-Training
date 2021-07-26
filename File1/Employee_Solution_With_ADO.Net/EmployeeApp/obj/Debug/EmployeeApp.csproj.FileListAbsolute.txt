@@ -1,0 +1,9 @@
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution_With_ADO.Net\EmployeeApp\bin\Debug\EmployeeApp.exe.config
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution_With_ADO.Net\EmployeeApp\bin\Debug\EmployeeApp.exe
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution_With_ADO.Net\EmployeeApp\bin\Debug\EmployeeApp.pdb
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution_With_ADO.Net\EmployeeApp\obj\Debug\EmployeeApp.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution_With_ADO.Net\EmployeeApp\obj\Debug\EmployeeApp.exe
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution_With_ADO.Net\EmployeeApp\obj\Debug\EmployeeApp.pdb
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution_With_ADO.Net\EmployeeApp\bin\Debug\EmployeeLibrary.dll
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution_With_ADO.Net\EmployeeApp\bin\Debug\EmployeeLibrary.pdb
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution_With_ADO.Net\EmployeeApp\obj\Debug\EmployeeApp.csproj.CopyComplete

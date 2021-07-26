@@ -1,0 +1,6 @@
+C:\Users\Arvind.Sahu\source\repos\BankSolution\BankSolution\bin\Debug\BankSolution.exe.config
+C:\Users\Arvind.Sahu\source\repos\BankSolution\BankSolution\bin\Debug\BankSolution.exe
+C:\Users\Arvind.Sahu\source\repos\BankSolution\BankSolution\bin\Debug\BankSolution.pdb
+C:\Users\Arvind.Sahu\source\repos\BankSolution\BankSolution\obj\Debug\BankSolution.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\BankSolution\BankSolution\obj\Debug\BankSolution.exe
+C:\Users\Arvind.Sahu\source\repos\BankSolution\BankSolution\obj\Debug\BankSolution.pdb

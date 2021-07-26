@@ -1,0 +1,42 @@
+﻿<Window x:Class="WPFApp_Example_Assignment5Of5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFApp_Example_Assignment5Of5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0" >
+            <Label Content="Database table name" />
+            <TreeView Name="treeDB" 
+                  SelectedItemChanged="treeDB_SelectedItemChanged">
+            <TreeViewItem Name="itemTable" Header="Northwind">
+
+            </TreeViewItem>
+        </TreeView>
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="1" >
+            <Label Content="HardCoded Tree view" />
+        <TreeView Grid.Row="1">
+            <TreeViewItem Header="Managers">
+                <TextBlock Text="Michael" />
+                <TextBlock Text="Paul" />
+            </TreeViewItem>
+            <TreeViewItem Header="Project Managers">
+                <TextBlock Text="John" />
+                <TextBlock Text="Tim" />
+                <TextBlock Text="David" />
+            </TreeViewItem>
+        </TreeView>
+        </StackPanel>
+    </Grid>
+</Window>

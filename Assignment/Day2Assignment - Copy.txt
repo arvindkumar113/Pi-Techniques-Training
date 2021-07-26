@@ -1,0 +1,365 @@
+Topic – OOPS, Collection & User Defined Exception
+
+Start new Project as Class Library. Name it as HRLib
+
+Create Employee Class
+Employee
+	String Name - property
+	String Address – property
+Total Constructor : 2
+Define 	Constructor with parameters (2 Parameter)
+
+Define abstract method CalculateSalary return double takes no parameter
+
+
+
+Write sub class ConfirmEmployee. Derived from Employee
+
+Variables / Properties
+	Double	 Basic 
+	String Designation 
+
+Total no of constructors : 2
+
+Define parameterized constructor (4 arguments)
+
+Override CalculateSalary method which return NetSalary
+This method cannot be “override” by child class
+
+Logic of CalculateSalary
+
+If Basic >= 30000
+	Hra – 30% of basic
+	Conv – 30 % of basic
+	PF – 10% of basic
+If Basic >= 20000
+	Hra – 20% of basic
+	Conv – 20 % of basic
+	PF – 10% of basic
+
+Else
+	Hra – 10% of basic
+	Conv – 10 % of basic
+	PF – 10% of basic
+
+NetSalary = basic + Hra + Conv - pf
+
+
+
+
+
+
+
+Define Trainee class. Derived from Employee
+Properties
+	Int 		No of Days
+	Double 	Rate per day
+
+No of constructors : 2
+
+Define parameterized constructor (4 parameters)
+
+Overrride CalculateSalary method
+
+Logic for the method
+
+NoOfDays * Rate
+
+
+•	Override ToString() method in all classes
+
+•	Create Empno as a int property which is auto generated unique value 
+	(means you will not take this value from the user but your Employee class 
+	internally generate and assign unique value)
+
+•	Exception Handling
+Keep check that for Confirm Employee minimum basic is Rs. 5000 
+If less throw User Defined Exception
+
+-------------------------------------------------
+
+
+	Create Console Application. Name it as HRAPP and test all 2 classes
+	by creating object and call the method
+
+
+
+
+
+
+
+----------------------------------------
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BankLibrary
+{
+    public abstract   class Bank
+    {       
+
+        #region Fields and Proeprties
+
+        //AccHolderName - string
+        //Balance - double
+
+        private string accHolderName;
+
+        public string AccHolderName
+        {
+            get { return accHolderName; }
+            set { accHolderName = value; }
+        }
+
+
+        private double balance;
+
+        //mixed access specifiers
+        public double Balance
+        {
+            get { return balance; }
+          protected    set { balance = value; }
+        }
+
+
+        private static  int count;
+
+        public static  int Count
+        {
+            get { return count; }
+          private   set { count = value; }
+        }
+
+
+
+        #endregion
+
+
+        #region Constructor
+
+        //static constructor is used for initializing static variable
+        //will be called once for application when class loader load the class
+        //will not take any parameter
+        static Bank()
+        {
+            Count = 1000;
+        }
+
+        public Bank()
+        {
+            Balance = 1000;
+            Count++;
+        }
+
+        public Bank(string name, double amount) : this()
+        {
+            AccHolderName = name;
+            Balance = amount;           
+        }
+        #endregion
+
+
+        #region Methods
+        public void Deposit(double amount)
+        {
+            Balance += amount;
+        }
+
+        public abstract  void Withdraw(double amount);
+
+        //public virtual void Withdraw(double amount)
+        //{
+        //    Balance -= amount;
+        //}
+
+        public override string ToString()
+        {
+            return string.Format($"AccountHolderName = {AccHolderName} Balance = {Balance}");
+        }
+        #endregion
+    }
+}
+
+------------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BankLibrary
+{
+    public class Savings : Bank, IInterest
+    {
+        public Savings()
+        {
+
+        }
+
+        public Savings(string accname, double amt) :base(accname, amt)
+        {
+            
+            
+        }
+
+        public double CalculateInterest()
+        {
+            return Balance * .1;
+        }
+
+        public override void Withdraw(double amount)
+        {
+            //check for balance after deducting amount
+            //if >=0 allow withdrawal
+            //else message
+
+            if ((Balance-amount)>=0)
+            {
+                Balance -= amount;
+            }
+            else
+            {
+                throw new BalanceException("Balance is not enough");
+            }
+        }
+    }
+}
+
+
+--------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BankLibrary
+{
+   public  class BalanceException : Exception
+    {
+        public BalanceException(string msg) : base(msg)
+        {
+
+        }
+    }
+}
+
+---------------------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BankLibrary
+{
+    interface IInterest
+    {
+        //methods : methods / properties / events
+
+        double CalculateInterest();
+    }
+}
+
+
+------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using BankLibrary;
+
+namespace SBIAPP
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            #region Bank object
+
+
+
+            //Bank bank = new Bank();
+            //bank.AccHolderName = "Bhvana";
+            ////bank.Balance = 100000;
+
+            //Console.WriteLine("bank object data = " + bank);
+
+            //bank.Deposit(20000);
+            //Console.WriteLine("bank object data = " + bank);
+
+            //bank.Withdraw(10000);
+            //Console.WriteLine("bank object data = " + bank);
+
+            //Console.WriteLine("-----------------------------------");
+            //Bank bank1 = new Bank("vishal", 30000);
+            //Console.WriteLine("bank1 object data = " + bank1);
+
+            //Bank bank2 = bank1;
+            //bank2.Deposit(50000);
+
+            //Console.WriteLine("bank1 object data = " + bank1);
+            //Console.WriteLine("bank2 object data = " + bank2);
+
+            //bank = null;
+
+            #endregion
+
+            //Savings savings = new Savings();
+            //savings.AccHolderName = "Amit";
+            //Console.WriteLine(savings);
+
+            Savings savings1 = new Savings("priya", 50000);
+            Console.WriteLine(savings1);
+            try
+            {
+                savings1.Withdraw(100000);
+            }
+            catch (BalanceException    ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            Console.WriteLine(savings1);
+            Console.WriteLine("Interest = " + savings1.CalculateInterest());
+         
+
+            Console.WriteLine("=================================");
+            Console.WriteLine("Total no of bank object = " + Bank.Count);
+
+
+
+
+            //try
+            //{
+            //    int num1 = 10;                
+            //    int num2 = int.Parse(Console.ReadLine());
+            //    int result = num1 / num2;
+            //    Console.WriteLine(result);
+            //}
+            //catch (DivideByZeroException ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+            //catch   (FormatException ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+
+            Console.ReadLine();
+        }
+    }
+}
+
+
+
+

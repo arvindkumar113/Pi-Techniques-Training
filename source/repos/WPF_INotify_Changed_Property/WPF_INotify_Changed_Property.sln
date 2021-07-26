@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_INotify_Changed_Property", "WPF_INotify_Changed_Property\WPF_INotify_Changed_Property.csproj", "{9BA83958-1502-448B-A041-4E570AF4A4FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BA83958-1502-448B-A041-4E570AF4A4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA83958-1502-448B-A041-4E570AF4A4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA83958-1502-448B-A041-4E570AF4A4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA83958-1502-448B-A041-4E570AF4A4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F073A365-77D1-4EB5-97A1-3EC179BE7E1F}
+	EndGlobalSection
+EndGlobal

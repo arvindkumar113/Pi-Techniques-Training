@@ -1,0 +1,22 @@
+﻿<Window x:Class="WPF_INotify_Changed_Property.CommandDemoUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_INotify_Changed_Property"
+        mc:Ignorable="d"
+        Title="CommandDemoUI" Height="450" Width="800">
+    
+    <Window.Resources>
+        <local:IncrementCounter x:Key="incrementCounterObject" />
+    </Window.Resources>
+    <Window.InputBindings>
+        <KeyBinding Key="F1" Command="{Binding IncrementCommand, Source={StaticResource incrementCounterObject}}"></KeyBinding>
+    </Window.InputBindings>
+    <StackPanel Orientation="Horizontal" DataContext="{Binding incrementCounterObject}">
+        <TextBox Name="txtCunter" Text="{Binding Counter, UpdateSourceTrigger=PropertyChanged}" Margin="10" Width="50"/>
+        <Button Name="incbtn" Content="Increment Counter" Margin="10" Width="50" Command="{Binding IncrementCounter, UpdateSourceTrigger=PropertyChanged}"/>
+        <Button Name="decbtn" Content="Decrement Counter" Margin="10" Width="50" Command="{Binding IncrementCounter, UpdateSourceTrigger=PropertyChanged}"/>
+
+    </StackPanel>
+</Window>

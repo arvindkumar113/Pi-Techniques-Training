@@ -1,0 +1,15 @@
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\bin\Debug\SampleProject6.exe.config
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\bin\Debug\SampleProject6.exe
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\bin\Debug\SampleProject6.pdb
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\obj\Debug\View\EmployeeGridView.baml
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\obj\Debug\View\EmployeeGridView.g.cs
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\obj\Debug\App.g.cs
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\obj\Debug\SampleProject6_MarkupCompile.cache
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\obj\Debug\SampleProject6.g.resources
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\obj\Debug\SampleProject6.Properties.Resources.resources
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\obj\Debug\SampleProject6.csproj.GenerateResource.Cache
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\obj\Debug\SampleProject6.exe
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\obj\Debug\SampleProject6.pdb
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\obj\Debug\SampleProject6_MarkupCompile.lref
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Vandana.Gunjal\Sample Projects\SampleProject6\SampleProject6\obj\Debug\App.baml

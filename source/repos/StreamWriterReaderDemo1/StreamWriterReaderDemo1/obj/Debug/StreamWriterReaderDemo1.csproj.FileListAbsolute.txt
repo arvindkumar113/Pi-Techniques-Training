@@ -1,0 +1,6 @@
+C:\Users\Arvind.Sahu\source\repos\StreamWriterReaderDemo1\StreamWriterReaderDemo1\obj\Debug\StreamWriterReaderDemo1.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\StreamWriterReaderDemo1\StreamWriterReaderDemo1\bin\Debug\StreamWriterReaderDemo1.exe.config
+C:\Users\Arvind.Sahu\source\repos\StreamWriterReaderDemo1\StreamWriterReaderDemo1\bin\Debug\StreamWriterReaderDemo1.exe
+C:\Users\Arvind.Sahu\source\repos\StreamWriterReaderDemo1\StreamWriterReaderDemo1\bin\Debug\StreamWriterReaderDemo1.pdb
+C:\Users\Arvind.Sahu\source\repos\StreamWriterReaderDemo1\StreamWriterReaderDemo1\obj\Debug\StreamWriterReaderDemo1.exe
+C:\Users\Arvind.Sahu\source\repos\StreamWriterReaderDemo1\StreamWriterReaderDemo1\obj\Debug\StreamWriterReaderDemo1.pdb

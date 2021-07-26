@@ -1,0 +1,17 @@
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\bin\Debug\WPF_INotify_Changed_Property.exe.config
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\bin\Debug\WPF_INotify_Changed_Property.exe
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\bin\Debug\WPF_INotify_Changed_Property.pdb
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\obj\Debug\WPF_INotify_Changed_Property.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\obj\Debug\MainWindow.g.cs
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\obj\Debug\App.g.cs
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\obj\Debug\WPF_INotify_Changed_Property_MarkupCompile.cache
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\obj\Debug\WPF_INotify_Changed_Property_MarkupCompile.lref
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\obj\Debug\MainWindow.baml
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\obj\Debug\WPF_INotify_Changed_Property.g.resources
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\obj\Debug\WPF_INotify_Changed_Property.Properties.Resources.resources
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\obj\Debug\WPF_INotify_Changed_Property.csproj.GenerateResource.cache
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\obj\Debug\WPF_INotify_Changed_Property.exe
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\obj\Debug\WPF_INotify_Changed_Property.pdb
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\obj\Debug\CommandDemo.g.cs
+C:\Users\Arvind.Sahu\source\repos\WPF_INotify_Changed_Property\WPF_INotify_Changed_Property\obj\Debug\CommandDemoUI.g.cs

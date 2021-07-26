@@ -1,0 +1,14 @@
+C:\Users\Arvind.Sahu\source\repos\WPF_Simple_Form\WPF_Simple_Form\bin\Debug\WPF_Simple_Form.exe.config
+C:\Users\Arvind.Sahu\source\repos\WPF_Simple_Form\WPF_Simple_Form\bin\Debug\WPF_Simple_Form.exe
+C:\Users\Arvind.Sahu\source\repos\WPF_Simple_Form\WPF_Simple_Form\bin\Debug\WPF_Simple_Form.pdb
+C:\Users\Arvind.Sahu\source\repos\WPF_Simple_Form\WPF_Simple_Form\obj\Debug\WPF_Simple_Form.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\WPF_Simple_Form\WPF_Simple_Form\obj\Debug\MainWindow.g.cs
+C:\Users\Arvind.Sahu\source\repos\WPF_Simple_Form\WPF_Simple_Form\obj\Debug\App.g.cs
+C:\Users\Arvind.Sahu\source\repos\WPF_Simple_Form\WPF_Simple_Form\obj\Debug\WPF_Simple_Form_MarkupCompile.cache
+C:\Users\Arvind.Sahu\source\repos\WPF_Simple_Form\WPF_Simple_Form\obj\Debug\WPF_Simple_Form_MarkupCompile.lref
+C:\Users\Arvind.Sahu\source\repos\WPF_Simple_Form\WPF_Simple_Form\obj\Debug\MainWindow.baml
+C:\Users\Arvind.Sahu\source\repos\WPF_Simple_Form\WPF_Simple_Form\obj\Debug\WPF_Simple_Form.g.resources
+C:\Users\Arvind.Sahu\source\repos\WPF_Simple_Form\WPF_Simple_Form\obj\Debug\WPF_Simple_Form.Properties.Resources.resources
+C:\Users\Arvind.Sahu\source\repos\WPF_Simple_Form\WPF_Simple_Form\obj\Debug\WPF_Simple_Form.csproj.GenerateResource.cache
+C:\Users\Arvind.Sahu\source\repos\WPF_Simple_Form\WPF_Simple_Form\obj\Debug\WPF_Simple_Form.exe
+C:\Users\Arvind.Sahu\source\repos\WPF_Simple_Form\WPF_Simple_Form\obj\Debug\WPF_Simple_Form.pdb

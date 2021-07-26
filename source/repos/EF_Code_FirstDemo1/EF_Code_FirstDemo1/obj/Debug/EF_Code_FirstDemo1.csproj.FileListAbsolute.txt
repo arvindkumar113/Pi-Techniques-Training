@@ -1,0 +1,14 @@
+C:\Users\Arvind.Sahu\source\repos\EF_Code_FirstDemo1\EF_Code_FirstDemo1\obj\Debug\EF_Code_FirstDemo1.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\EF_Code_FirstDemo1\EF_Code_FirstDemo1\obj\Debug\App.g.cs
+C:\Users\Arvind.Sahu\source\repos\EF_Code_FirstDemo1\EF_Code_FirstDemo1\obj\Debug\EF_Code_FirstDemo1_MarkupCompile.cache
+C:\Users\Arvind.Sahu\source\repos\EF_Code_FirstDemo1\EF_Code_FirstDemo1\bin\Debug\EF_Code_FirstDemo1.exe.config
+C:\Users\Arvind.Sahu\source\repos\EF_Code_FirstDemo1\EF_Code_FirstDemo1\bin\Debug\EF_Code_FirstDemo1.exe
+C:\Users\Arvind.Sahu\source\repos\EF_Code_FirstDemo1\EF_Code_FirstDemo1\bin\Debug\EF_Code_FirstDemo1.pdb
+C:\Users\Arvind.Sahu\source\repos\EF_Code_FirstDemo1\EF_Code_FirstDemo1\obj\Debug\MainWindow.g.cs
+C:\Users\Arvind.Sahu\source\repos\EF_Code_FirstDemo1\EF_Code_FirstDemo1\obj\Debug\EF_Code_FirstDemo1_MarkupCompile.lref
+C:\Users\Arvind.Sahu\source\repos\EF_Code_FirstDemo1\EF_Code_FirstDemo1\obj\Debug\MainWindow.baml
+C:\Users\Arvind.Sahu\source\repos\EF_Code_FirstDemo1\EF_Code_FirstDemo1\obj\Debug\EF_Code_FirstDemo1.g.resources
+C:\Users\Arvind.Sahu\source\repos\EF_Code_FirstDemo1\EF_Code_FirstDemo1\obj\Debug\EF_Code_FirstDemo1.Properties.Resources.resources
+C:\Users\Arvind.Sahu\source\repos\EF_Code_FirstDemo1\EF_Code_FirstDemo1\obj\Debug\EF_Code_FirstDemo1.csproj.GenerateResource.cache
+C:\Users\Arvind.Sahu\source\repos\EF_Code_FirstDemo1\EF_Code_FirstDemo1\obj\Debug\EF_Code_FirstDemo1.exe
+C:\Users\Arvind.Sahu\source\repos\EF_Code_FirstDemo1\EF_Code_FirstDemo1\obj\Debug\EF_Code_FirstDemo1.pdb

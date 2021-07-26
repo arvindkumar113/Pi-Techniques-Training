@@ -1,0 +1,31 @@
+﻿<Window x:Class="TemperatureConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TemperatureConverter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <local:Temperature x:Key="temperatureObject" />
+    </Window.Resources>
+    
+    <StackPanel Orientation="Vertical" DataContext="{StaticResource temperatureObject}">
+        <TextBox Name="txt1" Margin="10" Padding="10" Width="150"
+                 Text="{Binding Temp, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Button x:Name="btnCtoF"   Margin="30" Width="120" Height="30"
+                Content="C to F Convert" 
+                Command="{Binding ConvertFtoC, UpdateSourceTrigger=PropertyChanged}"/>
+
+
+        <Button x:Name="btnFtoC" Margin="30" Width="120" Height="30"
+                Content="F to C Conversion"
+                Command="{Binding ConvertCtoF, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Label Content="{Binding Result, UpdateSourceTrigger=PropertyChanged}" />
+    </StackPanel>
+
+    
+    
+</Window>

@@ -1,0 +1,15 @@
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.exe.config
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.exe
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.pdb
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\MainWindow.g.cs
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\App.g.cs
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter_MarkupCompile.cache
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter_MarkupCompile.lref
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\MainWindow.baml
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.g.resources
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.Properties.Resources.resources
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csproj.GenerateResource.cache
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.exe
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.pdb
+C:\Users\Arvind.Sahu\source\repos\TemperatureConverter\TemperatureConverter\obj\Debug\GeneratedInternalTypeHelper.g.cs

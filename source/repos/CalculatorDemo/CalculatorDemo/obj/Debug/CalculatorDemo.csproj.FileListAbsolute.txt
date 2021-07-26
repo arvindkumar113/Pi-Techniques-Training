@@ -1,0 +1,14 @@
+C:\Users\Arvind.Sahu\source\repos\CalculatorDemo\CalculatorDemo\bin\Debug\CalculatorDemo.exe.config
+C:\Users\Arvind.Sahu\source\repos\CalculatorDemo\CalculatorDemo\bin\Debug\CalculatorDemo.exe
+C:\Users\Arvind.Sahu\source\repos\CalculatorDemo\CalculatorDemo\bin\Debug\CalculatorDemo.pdb
+C:\Users\Arvind.Sahu\source\repos\CalculatorDemo\CalculatorDemo\obj\Debug\CalculatorDemo.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\CalculatorDemo\CalculatorDemo\obj\Debug\MainWindow.g.cs
+C:\Users\Arvind.Sahu\source\repos\CalculatorDemo\CalculatorDemo\obj\Debug\App.g.cs
+C:\Users\Arvind.Sahu\source\repos\CalculatorDemo\CalculatorDemo\obj\Debug\CalculatorDemo_MarkupCompile.cache
+C:\Users\Arvind.Sahu\source\repos\CalculatorDemo\CalculatorDemo\obj\Debug\CalculatorDemo_MarkupCompile.lref
+C:\Users\Arvind.Sahu\source\repos\CalculatorDemo\CalculatorDemo\obj\Debug\MainWindow.baml
+C:\Users\Arvind.Sahu\source\repos\CalculatorDemo\CalculatorDemo\obj\Debug\CalculatorDemo.g.resources
+C:\Users\Arvind.Sahu\source\repos\CalculatorDemo\CalculatorDemo\obj\Debug\CalculatorDemo.Properties.Resources.resources
+C:\Users\Arvind.Sahu\source\repos\CalculatorDemo\CalculatorDemo\obj\Debug\CalculatorDemo.csproj.GenerateResource.cache
+C:\Users\Arvind.Sahu\source\repos\CalculatorDemo\CalculatorDemo\obj\Debug\CalculatorDemo.exe
+C:\Users\Arvind.Sahu\source\repos\CalculatorDemo\CalculatorDemo\obj\Debug\CalculatorDemo.pdb

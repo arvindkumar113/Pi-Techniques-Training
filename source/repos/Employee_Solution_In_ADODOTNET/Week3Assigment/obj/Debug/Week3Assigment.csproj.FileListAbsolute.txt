@@ -1,0 +1,9 @@
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution\Week3Assigment\bin\Debug\Week3Assigment.exe.config
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution\Week3Assigment\bin\Debug\Week3Assigment.exe
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution\Week3Assigment\bin\Debug\Week3Assigment.pdb
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution\Week3Assigment\obj\Debug\Week3Assigment.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution\Week3Assigment\obj\Debug\Week3Assigment.exe
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution\Week3Assigment\obj\Debug\Week3Assigment.pdb
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution\Week3Assigment\bin\Debug\EmployeeLibrary.dll
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution\Week3Assigment\bin\Debug\EmployeeLibrary.pdb
+C:\Users\Arvind.Sahu\source\repos\Employee_Solution\Week3Assigment\obj\Debug\Week3Assigment.csproj.CopyComplete

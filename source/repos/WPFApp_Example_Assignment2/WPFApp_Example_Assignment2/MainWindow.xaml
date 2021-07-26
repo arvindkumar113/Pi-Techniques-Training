@@ -1,0 +1,126 @@
+﻿<Window x:Class="WPFApp_Example_Assignment2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFApp_Example_Assignment2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Window.Resources>
+        <local:ConditionalFormattingConverter x:Key="conditionalFormattingObj" />
+
+        <!-- For Conditional formatting obj-->
+        <Style TargetType="StackPanel" x:Key="conditionalFormatStyle">
+            <Style.Triggers>
+                <DataTrigger Binding="{Freight, Converter={StaticResource conditionalFormattingObj}}",
+                             Value="True">
+                    <Setter Property="Background" Value="Red" />
+                </DataTrigger>
+                <DataTrigger Binding="{Freight, Converter={StaticResource conditionalFormattingObj}}",
+                             Value="False">
+                    <Setter Property="Background" Value="Red" />
+                </DataTrigger>
+                
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+    
+    
+    <Grid x:Name="MainGrid" Loaded="MainGrid_Loaded">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Background="Aqua" 
+                   Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="5">2nd Assignment</TextBlock>
+
+
+        <!--<DataGrid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5" ItemsSource="{Binding }" AutoGenerateColumns="True"  
+                MouseMove="dataGrid1_MouseMove"  Height="800" HorizontalAlignment="Center" Margin="22,24,0,0" Name="dataGrid1" 
+                  VerticalAlignment="Top" Width="600" >
+
+            <DataGrid.RowStyle>
+
+                <Style TargetType="DataGridRow">
+
+                    <Style.Triggers>
+
+                        <Trigger Property="IsSelected" Value="True">
+
+                            <Setter Property="Background" Value="Blue"/>
+
+                        </Trigger>
+
+                    </Style.Triggers>
+
+                </Style>
+
+            </DataGrid.RowStyle>
+
+            --><!--<DataGrid.Columns>
+
+                <DataGridTextColumn Header="ID" Binding="{Binding}"/>
+
+                <DataGridTextColumn Header="Datum" Binding="{Binding }" Width="90"/>
+
+                <DataGridTextColumn Header="Feiertag" Binding="{Binding }" Width="140"/>
+
+                <DataGridTextColumn Header="Kurz" Binding="{Binding }">
+
+                    <DataGridTextColumn.CellStyle>
+
+                        <Style TargetType="DataGridCell">
+
+                            <Setter Property="Background" Value="{Binding }" />
+
+                            <Setter Property="Foreground" Value="{Binding }" />
+
+                        </Style>
+
+                    </DataGridTextColumn.CellStyle>
+
+                </DataGridTextColumn>
+            
+
+            </DataGrid.Columns>--><!--
+
+
+        </DataGrid>-->
+
+
+        <ListBox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" Name="lstItem"
+                 ItemsSource="{Binding }"  >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Style="{StaticResource conditionalFormatStyle}" >
+                        <TextBlock Text="{Binding OrderID}" Margin="5" Padding="3"
+                               Width="50"/>
+                        <TextBlock Text="{Binding CompanyName}" Margin="5" Padding="3"
+                               Width="150"/>
+                        <TextBlock Text="{Binding OrderDate}" Margin="5" Padding="3"
+                               Width="250" />
+                        <TextBlock Text="{Binding ShippedDate}" Margin="5" Padding="3"
+                               Width="250" />
+                        <TextBlock Text="{Binding Freight, Converter={StaticResource conditionalFormattingObj},
+                            ConverterParameter=c, ConverterCulture=hi-IN}" Margin="5" Padding="3"
+                               Width="60" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+
+
+        </ListBox>
+
+    </Grid>
+</Window>

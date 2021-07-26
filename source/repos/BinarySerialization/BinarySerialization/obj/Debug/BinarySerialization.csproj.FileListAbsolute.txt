@@ -1,0 +1,6 @@
+C:\Users\Arvind.Sahu\source\repos\BinarySerialization\BinarySerialization\obj\Debug\BinarySerialization.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\BinarySerialization\BinarySerialization\bin\Debug\BinarySerialization.exe.config
+C:\Users\Arvind.Sahu\source\repos\BinarySerialization\BinarySerialization\bin\Debug\BinarySerialization.exe
+C:\Users\Arvind.Sahu\source\repos\BinarySerialization\BinarySerialization\bin\Debug\BinarySerialization.pdb
+C:\Users\Arvind.Sahu\source\repos\BinarySerialization\BinarySerialization\obj\Debug\BinarySerialization.exe
+C:\Users\Arvind.Sahu\source\repos\BinarySerialization\BinarySerialization\obj\Debug\BinarySerialization.pdb

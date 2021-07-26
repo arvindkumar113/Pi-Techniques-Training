@@ -1,0 +1,155 @@
+  					Day - 1 Practice question
+
+//Q1 Program to find the entered number by user is either even or odd?
+
+Solution :
+
+Console.WriteLine("Enter a nmber to be checked either even or odd");
+int num;
+num=int.Parse(Console.ReadLine());
+
+
+//using simple if-else condition
+if(num%2==0) //for even
+{
+	Console.WriteLine("Number is even");
+}
+else // for odd
+{
+	Console.WriteLine("Number is odd");
+}
+
+//using function
+
+void CheckEvenOdd(int x)
+{
+	if(x%2==0)//for even
+	{
+		Console.WriteLine("Number is even");
+	}
+	else // for odd
+	{
+	Console.WriteLine("Number is odd");
+	}
+}
+
+
+//Q2. Check until user gives input
+
+Solution:
+
+do
+{
+	Console.WriteLine("Enter a number to be checked even or odd and enter 0 to exit");
+	int num=int.Parse(Console.ReadLine());
+	
+	if(x%2==0)//for even
+	{
+		Console.WriteLine("Number is even");
+	}
+	else // for odd
+	{
+	Console.WriteLine("Number is odd");
+	}
+
+}while(num!=0);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				Rectangle Program using class
+
+Program.cs file   
+
+
+	using System;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Rectangle rectangle = new Rectangle();
+
+           // rectangle.Length=20;
+           // Console.WriteLine("Length" + rectangle.Length);
+
+            //rectangle.Width = 5;
+            
+            Console.WriteLine("Area of rectangle is "+rectangle.getArea());
+        }
+    }
+}
+
+
+
+
+
+
+Rectangle.cs file
+
+
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ConsoleApp2
+{
+    class Rectangle
+    {
+        int length, width;
+
+        public int Length
+        {
+            get { return length; }//read
+
+            set { length = value; }//assignment
+        }
+
+        public int Width
+        {
+            get { return width; }//read
+
+            set { width = value; }//assignment
+        }
+        public int getArea()
+        {
+            return length * width;
+        }
+    }
+}
+
+
+
+
+
+---------------------assignment-------------
+
+
+Complete all yesterday assignments
+--------------------------------------------------
+
+Comlete full CRUD for DataDML
+
+Add Search button
+
+in EmpNo textbox take empno from user
+
+from DataLibrary call method GetEmpByNo
+Pass Empno from textbox to this method
+
+if record return display detail in individual text boxes
+
+else display message in MessageBox and clear all TextBoxes

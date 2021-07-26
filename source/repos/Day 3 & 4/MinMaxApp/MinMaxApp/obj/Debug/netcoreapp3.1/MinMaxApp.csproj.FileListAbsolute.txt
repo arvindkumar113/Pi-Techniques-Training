@@ -1,0 +1,11 @@
+C:\Users\Arvind.Sahu\source\repos\Training\MinMaxApp\MinMaxApp\obj\Debug\netcoreapp3.1\MinMaxApp.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\Training\MinMaxApp\MinMaxApp\obj\Debug\netcoreapp3.1\MinMaxApp.AssemblyInfoInputs.cache
+C:\Users\Arvind.Sahu\source\repos\Training\MinMaxApp\MinMaxApp\obj\Debug\netcoreapp3.1\MinMaxApp.AssemblyInfo.cs
+C:\Users\Arvind.Sahu\source\repos\Training\MinMaxApp\MinMaxApp\bin\Debug\netcoreapp3.1\MinMaxApp.exe
+C:\Users\Arvind.Sahu\source\repos\Training\MinMaxApp\MinMaxApp\bin\Debug\netcoreapp3.1\MinMaxApp.deps.json
+C:\Users\Arvind.Sahu\source\repos\Training\MinMaxApp\MinMaxApp\bin\Debug\netcoreapp3.1\MinMaxApp.runtimeconfig.json
+C:\Users\Arvind.Sahu\source\repos\Training\MinMaxApp\MinMaxApp\bin\Debug\netcoreapp3.1\MinMaxApp.runtimeconfig.dev.json
+C:\Users\Arvind.Sahu\source\repos\Training\MinMaxApp\MinMaxApp\bin\Debug\netcoreapp3.1\MinMaxApp.dll
+C:\Users\Arvind.Sahu\source\repos\Training\MinMaxApp\MinMaxApp\bin\Debug\netcoreapp3.1\MinMaxApp.pdb
+C:\Users\Arvind.Sahu\source\repos\Training\MinMaxApp\MinMaxApp\obj\Debug\netcoreapp3.1\MinMaxApp.dll
+C:\Users\Arvind.Sahu\source\repos\Training\MinMaxApp\MinMaxApp\obj\Debug\netcoreapp3.1\MinMaxApp.pdb

@@ -1,0 +1,13 @@
+C:\Users\Arvind.Sahu\source\repos\EF_Code_First_Demo1\EF_Code_First_Demo1\bin\Debug\EF_Code_First_Demo1.exe.config
+C:\Users\Arvind.Sahu\source\repos\EF_Code_First_Demo1\EF_Code_First_Demo1\bin\Debug\EF_Code_First_Demo1.exe
+C:\Users\Arvind.Sahu\source\repos\EF_Code_First_Demo1\EF_Code_First_Demo1\bin\Debug\EF_Code_First_Demo1.pdb
+C:\Users\Arvind.Sahu\source\repos\EF_Code_First_Demo1\EF_Code_First_Demo1\bin\Debug\EntityFramework.dll
+C:\Users\Arvind.Sahu\source\repos\EF_Code_First_Demo1\EF_Code_First_Demo1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Arvind.Sahu\source\repos\EF_Code_First_Demo1\EF_Code_First_Demo1\bin\Debug\EntityFramework.xml
+C:\Users\Arvind.Sahu\source\repos\EF_Code_First_Demo1\EF_Code_First_Demo1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Arvind.Sahu\source\repos\EF_Code_First_Demo1\EF_Code_First_Demo1\obj\Debug\EF_Code_First_Demo1.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\EF_Code_First_Demo1\EF_Code_First_Demo1\obj\Debug\EF_Code_First_Demo1.csproj.CopyComplete
+C:\Users\Arvind.Sahu\source\repos\EF_Code_First_Demo1\EF_Code_First_Demo1\obj\Debug\EF_Code_First_Demo1.exe
+C:\Users\Arvind.Sahu\source\repos\EF_Code_First_Demo1\EF_Code_First_Demo1\obj\Debug\EF_Code_First_Demo1.pdb
+C:\Users\Arvind.Sahu\source\repos\EF_Code_First_Demo1\EF_Code_First_Demo1\obj\Debug\EF_Code_First_Demo1.Migrations._01_createdb.resources
+C:\Users\Arvind.Sahu\source\repos\EF_Code_First_Demo1\EF_Code_First_Demo1\obj\Debug\EF_Code_First_Demo1.csproj.GenerateResource.cache

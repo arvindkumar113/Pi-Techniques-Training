@@ -1,0 +1,5 @@
+C:\Users\Arvind.Sahu\source\repos\Simple_WPF_Form_With_Image\Simple_WPF_Form_With_Image\obj\Debug\Simple_WPF_Form_With_Image.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\Simple_WPF_Form_With_Image\Simple_WPF_Form_With_Image\obj\Debug\MainWindow.g.cs
+C:\Users\Arvind.Sahu\source\repos\Simple_WPF_Form_With_Image\Simple_WPF_Form_With_Image\obj\Debug\App.g.cs
+C:\Users\Arvind.Sahu\source\repos\Simple_WPF_Form_With_Image\Simple_WPF_Form_With_Image\obj\Debug\Simple_WPF_Form_With_Image_MarkupCompile.cache
+C:\Users\Arvind.Sahu\source\repos\Simple_WPF_Form_With_Image\Simple_WPF_Form_With_Image\obj\Debug\Simple_WPF_Form_With_Image_MarkupCompile.lref

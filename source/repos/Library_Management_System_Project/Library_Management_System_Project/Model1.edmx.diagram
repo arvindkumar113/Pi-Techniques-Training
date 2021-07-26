@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="403eba479fe24fecbc62ccaa629956ab" Name="Diagram1">
+        <EntityTypeShape EntityType="Library_Management_SystemModel.Book" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Library_Management_SystemModel.IssueBook" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Library_Management_SystemModel.Member" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Library_Management_SystemModel.MemberType" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Library_Management_SystemModel.Staff" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="Library_Management_SystemModel.FK__IssueBook__BookC__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="Library_Management_SystemModel.FK__IssueBook__Membe__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="Library_Management_SystemModel.FK__Member__MemberTy__31EC6D26" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

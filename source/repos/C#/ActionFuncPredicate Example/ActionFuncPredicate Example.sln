@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionFuncPredicate Example", "ActionFuncPredicate Example\ActionFuncPredicate Example.csproj", "{006D5F6E-FFEC-43E5-8D1E-E0E5BB4C9DFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{006D5F6E-FFEC-43E5-8D1E-E0E5BB4C9DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006D5F6E-FFEC-43E5-8D1E-E0E5BB4C9DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006D5F6E-FFEC-43E5-8D1E-E0E5BB4C9DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006D5F6E-FFEC-43E5-8D1E-E0E5BB4C9DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55D0D1CB-E01A-4741-9154-252196891E02}
+	EndGlobalSection
+EndGlobal

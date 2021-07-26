@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Library_Management_SystemModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="BookCode" />
+    </Key>
+    <Property Name="BookCode" Type="int" Nullable="false" />
+    <Property Name="BookName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Author" Type="varchar" MaxLength="20" />
+    <Property Name="Issuable" Type="bit" Nullable="false" />
+    <Property Name="Isissued" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="IssueBook">
+    <Key>
+      <PropertyRef Name="issueCode" />
+    </Key>
+    <Property Name="issueCode" Type="int" Nullable="false" />
+    <Property Name="MemberCode" Type="int" Nullable="false" />
+    <Property Name="BookCode" Type="int" Nullable="false" />
+    <Property Name="IssueDate" Type="date" Nullable="false" />
+    <Property Name="DueDate" Type="date" />
+    <Property Name="ActualReturnDate" Type="date" />
+  </EntityType>
+  <EntityType Name="Member">
+    <Key>
+      <PropertyRef Name="MemberCode" />
+    </Key>
+    <Property Name="MemberCode" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MemberName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="MemberTypeID" Type="int" Nullable="false" />
+    <Property Name="NoOfBookIssued" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MemberType">
+    <Key>
+      <PropertyRef Name="MemberTypeID" />
+    </Key>
+    <Property Name="MemberTypeID" Type="int" Nullable="false" />
+    <Property Name="MemberType" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="BooksAllowed" Type="int" Nullable="false" />
+    <Property Name="DaysAllowed" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Staff">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="fullname" Type="varchar" MaxLength="50" />
+    <Property Name="username" Type="varchar" MaxLength="50" />
+    <Property Name="password" Type="varchar" MaxLength="50" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="contact" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK__IssueBook__BookC__35BCFE0A">
+    <End Role="Book" Type="Self.Book" Multiplicity="1" />
+    <End Role="IssueBook" Type="Self.IssueBook" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Book">
+        <PropertyRef Name="BookCode" />
+      </Principal>
+      <Dependent Role="IssueBook">
+        <PropertyRef Name="BookCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__IssueBook__Membe__34C8D9D1">
+    <End Role="Member" Type="Self.Member" Multiplicity="1" />
+    <End Role="IssueBook" Type="Self.IssueBook" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Member">
+        <PropertyRef Name="MemberCode" />
+      </Principal>
+      <Dependent Role="IssueBook">
+        <PropertyRef Name="MemberCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Member__MemberTy__31EC6D26">
+    <End Role="MemberType" Type="Self.MemberType" Multiplicity="1" />
+    <End Role="Member" Type="Self.Member" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MemberType">
+        <PropertyRef Name="MemberTypeID" />
+      </Principal>
+      <Dependent Role="Member">
+        <PropertyRef Name="MemberTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Library_Management_SystemModelStoreContainer">
+    <EntitySet Name="Book" EntityType="Self.Book" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="IssueBook" EntityType="Self.IssueBook" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Member" EntityType="Self.Member" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MemberType" EntityType="Self.MemberType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Staff" EntityType="Self.Staff" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__IssueBook__BookC__35BCFE0A" Association="Self.FK__IssueBook__BookC__35BCFE0A">
+      <End Role="Book" EntitySet="Book" />
+      <End Role="IssueBook" EntitySet="IssueBook" />
+    </AssociationSet>
+    <AssociationSet Name="FK__IssueBook__Membe__34C8D9D1" Association="Self.FK__IssueBook__Membe__34C8D9D1">
+      <End Role="Member" EntitySet="Member" />
+      <End Role="IssueBook" EntitySet="IssueBook" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Member__MemberTy__31EC6D26" Association="Self.FK__Member__MemberTy__31EC6D26">
+      <End Role="MemberType" EntitySet="MemberType" />
+      <End Role="Member" EntitySet="Member" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

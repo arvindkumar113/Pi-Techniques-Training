@@ -1,0 +1,30 @@
+PI Techniques - Flow of Examples
+Level - 1
+Project 1
+	This is the sample project illustrating use of different basic WPF controls. (Data entry form)
+Project 2
+	This is the sample project illustrating use of GridView.
+Project 3
+	This is the sample project illustrating use of listview in thumbnail format.
+Project 4
+	This is the sample project illustrating use of data template.
+Project 5
+	This is the sample project illustrating use of converters in bindings.
+Level 2 - part 1
+Project 6
+	This is the sample project illustrating data context assigned using view model locator.  (Display in DataGrid)
+Project 7
+	This is the sample project illustrating use of RelayCommands , DataBinding & ObservableCollection.	(Insert Record)
+Project 8
+	This is the sample project illustrating use of base class with generics for reusability.  (Display in DataGrid)
+Design time data & cleanup is covered under this.
+Level 2 - Part 2
+Project 9
+	This is the sample project illustrating use of async db call.
+Project 10
+	This is the sample project illustrating validation using IDataErrorInfo.
+Level 3
+Project 11
+	This is the sample project illustrating use of Dependency property.
+Project 12
+	This is the sample project illustrating use of content presenter to switch views.

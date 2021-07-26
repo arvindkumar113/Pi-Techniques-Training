@@ -1,0 +1,14 @@
+C:\Users\Arvind.Sahu\source\repos\WcfService2\WpfApp_SOAPService\bin\Debug\WpfApp_SOAPService.exe.config
+C:\Users\Arvind.Sahu\source\repos\WcfService2\WpfApp_SOAPService\bin\Debug\WpfApp_SOAPService.exe
+C:\Users\Arvind.Sahu\source\repos\WcfService2\WpfApp_SOAPService\bin\Debug\WpfApp_SOAPService.pdb
+C:\Users\Arvind.Sahu\source\repos\WcfService2\WpfApp_SOAPService\obj\Debug\WpfApp_SOAPService.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\WcfService2\WpfApp_SOAPService\obj\Debug\MainWindow.g.cs
+C:\Users\Arvind.Sahu\source\repos\WcfService2\WpfApp_SOAPService\obj\Debug\App.g.cs
+C:\Users\Arvind.Sahu\source\repos\WcfService2\WpfApp_SOAPService\obj\Debug\WpfApp_SOAPService_MarkupCompile.cache
+C:\Users\Arvind.Sahu\source\repos\WcfService2\WpfApp_SOAPService\obj\Debug\WpfApp_SOAPService_MarkupCompile.lref
+C:\Users\Arvind.Sahu\source\repos\WcfService2\WpfApp_SOAPService\obj\Debug\MainWindow.baml
+C:\Users\Arvind.Sahu\source\repos\WcfService2\WpfApp_SOAPService\obj\Debug\WpfApp_SOAPService.g.resources
+C:\Users\Arvind.Sahu\source\repos\WcfService2\WpfApp_SOAPService\obj\Debug\WpfApp_SOAPService.Properties.Resources.resources
+C:\Users\Arvind.Sahu\source\repos\WcfService2\WpfApp_SOAPService\obj\Debug\WpfApp_SOAPService.csproj.GenerateResource.cache
+C:\Users\Arvind.Sahu\source\repos\WcfService2\WpfApp_SOAPService\obj\Debug\WpfApp_SOAPService.exe
+C:\Users\Arvind.Sahu\source\repos\WcfService2\WpfApp_SOAPService\obj\Debug\WpfApp_SOAPService.pdb

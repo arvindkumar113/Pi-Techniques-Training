@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserValidationLibrary", "UserValidationLibrary\UserValidationLibrary.csproj", "{01DF8473-22C0-438F-920F-6669E601547F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "userValidationApp", "userValidationApp\userValidationApp.csproj", "{B752BFC9-619C-44C4-B419-888071B86516}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01DF8473-22C0-438F-920F-6669E601547F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DF8473-22C0-438F-920F-6669E601547F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DF8473-22C0-438F-920F-6669E601547F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DF8473-22C0-438F-920F-6669E601547F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B752BFC9-619C-44C4-B419-888071B86516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B752BFC9-619C-44C4-B419-888071B86516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B752BFC9-619C-44C4-B419-888071B86516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B752BFC9-619C-44C4-B419-888071B86516}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43F28704-CC35-4AA0-A59C-E7FDFA6ADE0C}
+	EndGlobalSection
+EndGlobal

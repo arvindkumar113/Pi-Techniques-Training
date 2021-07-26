@@ -1,0 +1,695 @@
+
+=============very first day Day-1=======Introduction to c# and dotnet and framework
+
+1.	take a number from user and check weather odd or even
+
+2.	check odd even till user want
+
+=========Day-2 ========Classes and Objects =============
+
+1.	Rectangle program to calculate area
+2.	Employee assignment
+
+
+
+
+             Employee Assignment
+
+
+	Start new Project as Class Library. Name it as HRLib
+
+	Create Employee Class
+	Employee
+		String Name - property
+		String Address – property
+	Total Constructor : 2
+	Define 	Constructor with parameters (2 Parameter)
+
+	Define abstract method CalculateSalary return double takes no parameter
+
+
+
+	Write sub class ConfirmEmployee. Derived from Employee
+
+	Variables / Properties
+		Double	 Basic 
+		String Designation 
+
+	Total no of constructors : 2
+
+	Define parameterized constructor (4 arguments)
+
+	Override CalculateSalary method which return NetSalary
+	This method cannot be “override” by child class
+
+	Logic of CalculateSalary
+
+	If Basic >= 30000
+		Hra – 30% of basic
+		Conv – 30 % of basic
+		PF – 10% of basic
+
+	If Basic >= 20000
+		Hra – 20% of basic
+		Conv – 20 % of basic
+		PF – 10% of basic
+
+	Else
+		Hra – 10% of basic
+		Conv – 10 % of basic
+		PF – 10% of basic
+
+	NetSalary = basic + Hra + Conv - pf
+
+
+
+	Define Trainee class. Derived from Employee
+	Properties
+		Int 		No of Days
+		Double 	Rate per day
+
+	No of constructors : 2
+
+	Define parameterized constructor (4 parameters)
+
+	Overrride CalculateSalary method
+
+	Logic for the method
+
+	NoOfDays * Rate
+
+
+	•	Override ToString() method in all classes
+
+	•	Create Empno as a int property which is auto generated unique value 	(means you will not take this value from the user but your Employee class  	internally generate and assign unique value)
+
+	•	Exception Handling
+	Keep check that for Confirm Employee minimum basic is Rs. 5000 
+	If less throw User Defined Exception
+
+
+
+	Create Console Application. Name it as HRAPP and test all 2 classes by creating 	object and call the method
+
+
+
+
+
+==============Day-3 and 4 Assignment========
+
+1	Employee assignment(description is below)
+
+2	difference between string and StringBuilder     => done
+
+3	Jagged array =>done
+
+4	difference between ref and out  =>done
+
+5	swap number using generic class		=> done
+
+6	interface : IEnumerable / IList / ICollection
+
+7	indexer in C#
+
+8	what is cloaining? what is shellow cloaning and deep cloaning?
+
+9	Collection example  =>	  done
+
+10	Take array as a method input and  return min and max value of a given array		====> done
+
+Note: do not sort array. Search in unsorted array for min and max value
+atleast show 4 different ways of return multiple values from a method
+
+===>>   Done
+
+
+11	Write a code which checks if the password is complex enough i.e. contains letter, digit and symbol. Minimum length of the password is six characters and one letter capital		====> done
+
+Tip: Write class with separate methods to check each functionality and one public method which will be called by the client to verify the password
+
+
+=====>> Done
+
+
+12	what is finalize and dispose (IDisposable) method in C#   ===> done
+
+
+
+
+13.	Create class library project
+	Create class Customer
+		CustomerName, City, Country
+
+	Create CustomerCollection class
+		Create CustomerList
+		Add minimum 10 records
+
+
+	1	Write a method which return full CustomerList
+
+	2	Write a method which takes CustomerName and return Customer Record
+
+	3	Write a method which takes City and Country as a parameter and return
+		matching record
+
+Create console application to test the code. 
+	Test all 3 methods by showing menu
+
+		--------->> Done
+
+
+
+
+
+<========================Day-5=====================Started SQL    =====>> All Done
+
+1.	Create table Testdata
+	---> only one column testno int primary key and identity column(1,1)
+
+	Insert data for this table
+
+2.	Create table country
+	countryID	varchar(3)	PK
+	countryName	varchar(20)	unique
+	capital		Varchar(20)	
+	Flag		varBimary(max)
+
+3. 	Create table state
+	stateID		varchar(3)	PK
+	statename	varchar(20)
+	statecapital	varchar(20)
+	countryId	varchar(3)	fk
+	
+	Insert minimum 2 entry in each table
+
+
+----------->> use table database training and table emp and dept
+
+--1	LIST ALL EMPS WHO ARE WORKING IN DEPT 20 AND EARNING MORE THEN 2500
+
+
+--2	LIST ALL EMPS WHOSE JOB IS EITHER MANAGER OR CLERK OR ANALYST
+
+
+--3	LIST ALL EMPS WHO ARE WORKING AS CLERK IN DPET 10 OR MANAGER FORM DEPT 30
+
+--4	LIST ALL EMPS WHOSE SALARY IN RANGE OF 3000 TO 5000
+
+
+--5	Find the employees whose commission is greater than 50 percent of his salary. 
+
+
+--6	LIST ALL EMPS WHOSE COMM IS NOT NULL (means who are earning commission)
+
+
+
+--1	LIST ALL EMPS WHOSE NAME ENDS WITH N
+
+--2	LIST ALL EMP WHOSE NAME CONTAINS I
+
+--3	LIST ALL EMP WHOSE NAME START WITH A OR M OR S
+
+--4	LIST ALL EMP WHOSE NAME START WITH A...M  (A,B,C,...M)
+
+--5	LIST ALL EMP WHOSE NAME DOES NOT START WITH J OR W
+
+--6	list all emp whose name contains vowel o or u or e, either at
+	2nd position or at second last position
+
+--7	LIST ALL EMP WHOSE NAME CONTAINS _   (ANS IS JOHN_MILLER)
+
+--8 LIST ALL EMP WOSE NAME HAS ONLY 5 CHAR
+
+
+---------MULTIPLE COLUMN SORING (ORDER BY CLAUSE)
+
+--LIST ALL EMPLOYEE AS PER THE JOB
+
+--LIST ALL EMPLOYEE AS PER THE SALARY HIGHEST TO LOWEST
+
+--LIST ALL EMPLOYEE AS PER THE HIREDATE OLDEST FIRST
+
+ -------------------MULTIPLE COLUMN SORING------------------------>> Done
+
+--LIST ALL EMPLOYEE AS PER THE DEPARTMENT
+
+--LIST ALL EMPLOYEE NAME , JOB, SALARY, COMMISION
+
+--ADD A COLUMN AS NETSAL AS SAL+COMM
+
+--SORT NETSAL AS PER H TO L
+
+--SORT NETSAL AS PER H TO L WHERE NETSAL>2500
+
+--FIND NET SAL EXPENDATURE OF ORGANIZATION
+
+--DEPARTMENT WISE TOTAL SALARY
+
+--FOR EACH DEPARTMENT COUNT NUMBER OF EMPLOYEE
+
+--FOR EACH DEPT PRINT HIGHEST ND LOWEST SALARY
+
+--LIST DEPTWISE, JOBWISE EMPCOUNT
+
+--DEPT WISE JOB COUNT
+
+--DEPARTMENT WISE EMPLOYEE COUNT
+
+--LIST ALL DEPARTMENT HAVING MORE THAN 4 EMPLOYEE
+
+
+
+-----DISTINCT
+
+
+--LIST TYPES OF JOBS
+
+
+
+
+<======================Topics for Day 7 =================>> Done
+
+------------date manipulation-------
+-----ADDING OR SUBSTRACTING DAY AND MONTH
+--FORMAT AND CULTURE
+--number rounding and format
+--CONDITIONAL CHECKING IN QUERRY
+--OVER CLAUSE
+--DENSE RANK AND RANK
+
+
+-------------SQL ASSIGNMENT 2 CLAUSE AND FUNCTIONS-------------->> Done
+
+
+--1. LIST empname, hiredate and the no of years completed by each employee in organization
+
+--2. LIST ALL EMP WHO HAVE JOINED BEFORE 2000
+
+--3 LIST ALL EMP WHO HAVE COMPLETED 35 YEARS OF SERVICE ---DONE---
+
+--4 LIST ALL EMP AS PER THE MONTH OF JOINING IRRESPECITVE OF THE YEARS . EXAMPLE JAN, FEB .... DEC
+
+--5 LIST ALL EMP WHO HAVE JOINED IN DEC 81
+
+--6		LIST EACH YEAR   IN WHICH ALL EMP HAVE JOINED
+
+--7		For each employee display the number of days passed since the employee joined the company
+
+--8		list empname, hiredate and dayoftheweek when employee joined the organization
+
+--9		LIST THE YEAR AND TOTAL NO OF EMP JOINED IN THAT YEAR  
+-- 		1981		3
+-- 		1985		5
+
+
+--10	LIST FULL DETAILS OF OLDEST  EMPLOYEE
+
+--11 DISPLAY NAME IN PROPER FORMAT LIKE Smith, Allen, Ward
+
+--12  All employees who are not receiving commission are 
+--entitled  to Rs. 250 as an additional amount,  show the net earnings  of all employees
+
+
+--13
+ ---- Display the name, job and bonus for all employees, 
+ --assuming all managers gets a bonus of Rs. 500, 
+ --clerk gets Rs. 200 
+ --and all other except president get Rs. 350. 
+ --The president gets 20% of his salary as bonus
+ 
+ 
+--14	 Find the  job of the employees receiving commission
+
+--15	 Show the daily salary of all employees assuming a month has 30 days without any decimal
+
+--16	display record of last joined employee
+
+--17	list empname, hiredate, sal , comm and netsal in date, number and currency format of India
+--use format unction
+
+--18	show empoyee data as per year or joing
+--for each year jan to dec give sr no 1, 2, ...
+--year change again start number for 1
+--HINT- Partition function
+
+ 
+--19	CASE SENSITIVE 
+-- IN MS SQL SERVER HOW TO WORK ON CASE SENSITIVE DATA
+
+--another way is to make whole database case sensative
+
+
+
+
+----------------ADVANCED QUERRY--------------  ====>> Done
+
+-- LIST ALL EMPLOYEE OF DEPARTMENT IN WHICH MARTIN IS WORKING--
+--1  list all emp whose designation is same as BLAKE
+
+
+--2 list all emp who are earning more then the average salary of the organization
+
+
+--3 list full detail (all column of emp table) of highest paid employee (without using Top n)
+
+
+--4		list all emp whose sal is more then Allen and working
+--in same deparment with Scott and 
+--hireed in same year of Jones
+
+
+
+--5		list all emp whose manager is king
+
+--6		LIST ALL EMP WHOSE MANAGER'S MANGER IS KING
+
+--7		list all emp who are working in research department
+
+--8		list all emp who are working in NEW YORK
+
+--9		print department name where all emps are earning commission
+
+--10		LIST ALL EMP WHO ARE WORKING IN BOSTON AND EARNING MORE THEN THE AVERAGE OF DEPT LOCATED IN BOSTON
+
+
+<<============================Day 8th =======================>> Done
+
+
+------------------------ASSIGNMENT on SUB QUERY AND JOINS---------------------------------
+
+--1	LIST COSTLIEST PRODUCT DETAILS
+
+
+--2	PRINT ALL THE ORDERS PLACED BY CUSTOMER AJAY
+
+--3	LIST PRODUCTNAME, PRICE, QUANTITY AND CATEGORYNAME
+
+--4	LIST ORDERYEAR, ORDERMONTH, ORDERID, ORDERDATE, CUSTOMERNAME FOR ALL ORDERS
+
+--5	LIST ALL THE ORDERS FOR THE CATEGORY ELECTRONICS
+
+--6	LIST ALL THE ORDERS WHOSE PRICE IS GREATER THEN 1000
+
+--7	LIST ALL THE ORDERS FOR THE CUSTOMER CHIRAG PLACED FOR CATEGORY FOOD
+
+
+--8	LIST ORDERYEAR, ORDERMONTH, ORDERID, ORDERDATE, CUSTOMERNAME, 
+--	CATEGORYNAME, PRODUCTNAME, PRICE, ORDERQTY, TOTAL(PRICE*ORDERQTY) FOR ALL ORDERS
+
+
+--9	LIST TOTAL ORDERCOUNT, TOTALORDERQTY, TOTALVALUE OF ORDERS PLACE BY CUSTOMER AJAY
+
+--	HINT: BELOW OUTPUT
+ORDERCOUNT	TOTALORDERQTY	TOTALVALUE
+3			9				620.00
+
+
+--10	LIST SUM OF  ORDERQTY  FROM ORDERS TABLE FOR CATEGORY ELECTRONICS 
+
+--HINT
+TOTALORDERQTY
+2
+
+
+
+
+<<=========================Day 9th (Friday) =========================>> Done
+
+
+	Topics studied --  Some advanced query and Procedure basics
+
+
+------------------->   NorthWind Assignments    <-------------------------
+
+
+
+<<====================Day 10th (Monday, 17th June) ======================>>  Done
+    Topics :  Advanced procedure in SQL (I was absent due to viral fever vaccination)
+
+
+
+<<========================18th June ==================>>
+
+Print details of 3rd highest salary taking employee
+Hint :- use Top-n 
+
+And session started with 
+	TSQL
+	Stored procedure
+	Function
+	Trigger
+
+Introduction to ADO.NET
+
+
+
+<<==============21st June================>>
+
+
+Started with ADO.Net (connected archeticture and disconnected architecture)
+Provide- Syste.Data.SqlClient
+	-System.Data.OracleClient
+	-System.Data.Oledb
+
+
+
+
+
+<<================25th June=================>>
+
+Code for everything
+
+1.	File IO - Study
+2.	Write a demo code for file IO streamreader and streamwriter
+
+	Serialization
+
+3.	Write a demo code for binary serialization and sopa serialization data in a file for read and write
+
+4.	task parallel library and demo code with task class
+
+5.	Async and Await with demo code
+
+6.	SOLID Principle for development
+
+
+
+<<==============28th June 2021 Monday==============>>
+
+
+1.	Assignment to make a calculator
+2.	what is delegate
+3.	Extention Method
+
+
+<<=============29th June==========>>
+
+1.	IEnumerable and IQueryable difference
+2.	Action, Func, Predicate Deligate difference
+
+
+<<===============30th June==============>>
+
+Started with Entity Framework (ORM)
+	(hybernate is orm for Java)
+and two approach
+	---Code first
+	---data first
+
+
+
+<<==================1st July=================>>
+
+Lazy Loading and Eager Loading 
+
+Started with Linq Query
+
+
+<<===============Assignment 2nd July===============>>
+
+
+1.	Make 5 radio button with names mr, mrs, dr, ms, all
+	and clicking on radio button display all details of customer which have such title name
+
+2.	from order table (orderid, company name, orderdate, ship date, freight), display all on display and if freight value is less than 0 then show error using error handler.
+
+3.	display (productid, productname, unitinstock, unitprice, unitinstock) and add generate one column in xaml as netstock as unitprice * unitinstock
+
+Hint ;- use join query and multibinding
+
+4.	display category name and their all products and price in other column
+	Hint:- take autogenarated column= false and table within table
+
+5.	Display all table name from database using expand buttonn as it happens in mssql database
+
+
+========= 5th July ===========
+
+Started with Data Annotation  
+
+
+
+
+
+
+=================6th July=======
+
+Started with INotifyPropertyChanged Interface
+
+
+
+
+==============9th July===========
+
+Assignment via mail
+	Library management system Project
+
+
+===========Saturday sunday 10th and 11th July=======
+
+
+
+
+
+===============WCF Last Day Assignment==========
+
+
+Create class library – EmployeeLibrary
+Create class Employee : 
+	EmployeeID
+	FirstName
+	LastName
+	Country
+Create WCF Service Application
+	Add WCF Service as IEmployeeService
+		GetAllEmployees();
+	Implement this method in a class
+		Use ado.net code to get all Employees from Northwind database
+		Deploy service and check in browser 
+	Run and test in WCF Test client
+
+
+
+
+
+
+
+
+==============Assignment but I don't know the date===========
+
+-----Northwind assignment to perform all crud operation in wpf
+
+
+
+------Code First Assignment
+
+•	Start new Project = “EFCodeFirstAssignment”
+
+•	Download dependency using NuGet Package Manager  (Entity Framework 6...)
+	
+•	Build your project
+
+No primary key is auto generated number i.e. identity in MS SQL SERVER
+
+•	Create POCO (Entity) class
+
+Book Class
+BookID		int		PK
+BookName	string / varchar(20)	Required
+
+
+
+Member Class
+MemberID		int		PK
+MemberName		string/ varchar(20)		Required
+
+
+Review class
+ReviewID	int	PK no dbgenerated
+BookID	int	FK
+MemberID	int	FK
+ReviewText	string /varchar(50)
+
+•	Create Context class as BookDBContext Which allows to perform CRUD operation
+
+•	ADD DbSet property for all 3 classes
+
+•	Through constructor pass connection string
+
+•	Build code
+
+•	Enable migration
+
+•	Add migration – 01____
+
+•	Update database (Check database and tables)
+
+
+•	Add POCO class as 
+
+Publisher class
+PublisherID		int		PK  no db generated
+PublisheName		string	varchar(20)	
+Country			string varchar(20)
+BookCollection		ICollection<Book>	
+
+•	Modify Book class 
+Add one more field
+Publisher		Publisher	FK
+
+•	Add Publisher class entry in DbContext DbSet<Publisher>
+
+•	Build code
+
+•	Add migration 02____
+•	Update database   (check tables)
+
+•	Test data	In Main method
+o	Add one record for each table 
+•	Run your application (will add record in table) – (check table data)
+
+
+
+
+
+
+
+=========================Last Assignment===========
+
+		-------Library management system------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

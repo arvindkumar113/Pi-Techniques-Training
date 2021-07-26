@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPSerialisation", "SOAPSerialisation\SOAPSerialisation.csproj", "{4969BA2C-382A-4F1D-B201-6102AEBEDFB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4969BA2C-382A-4F1D-B201-6102AEBEDFB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4969BA2C-382A-4F1D-B201-6102AEBEDFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4969BA2C-382A-4F1D-B201-6102AEBEDFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4969BA2C-382A-4F1D-B201-6102AEBEDFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B969CAC2-B4AA-4E59-89C4-8EF6D32A406F}
+	EndGlobalSection
+EndGlobal

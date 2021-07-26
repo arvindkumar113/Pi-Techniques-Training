@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NorthwindModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="NorthwindModelStoreContainer">
+    <EntitySet Name="Categories" EntityType="NorthwindModel.Store.Categories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Products" EntityType="NorthwindModel.Store.Products" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Products_Categories" Association="NorthwindModel.Store.FK_Products_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar" Nullable="false" MaxLength="15" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Picture" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductName" Type="nvarchar" Nullable="false" MaxLength="40" />
+    <Property Name="SupplierID" Type="int" Nullable="true" />
+    <Property Name="CategoryID" Type="int" Nullable="true" />
+    <Property Name="QuantityPerUnit" Type="nvarchar" Nullable="true" MaxLength="20" />
+    <Property Name="UnitPrice" Type="decimal" Nullable="true" Precision="19" Scale="4" />
+    <Property Name="UnitsInStock" Type="smallint" Nullable="true" />
+    <Property Name="UnitsOnOrder" Type="smallint" Nullable="true" />
+    <Property Name="ReorderLevel" Type="smallint" Nullable="true" />
+    <Property Name="Discontinued" Type="bit" Nullable="true" />
+  </EntityType>
+  <Association Name="FK_Products_Categories">
+    <End Role="Categories" Type="NorthwindModel.Store.Categories" Multiplicity="0..1" />
+    <End Role="Products" Type="NorthwindModel.Store.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

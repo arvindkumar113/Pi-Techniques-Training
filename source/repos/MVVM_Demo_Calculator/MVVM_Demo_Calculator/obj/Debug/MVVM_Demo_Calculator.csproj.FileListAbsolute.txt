@@ -1,0 +1,15 @@
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\bin\Debug\MVVM_Demo_Calculator.exe.config
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\bin\Debug\MVVM_Demo_Calculator.exe
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\bin\Debug\MVVM_Demo_Calculator.pdb
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\obj\Debug\MVVM_Demo_Calculator.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\obj\Debug\Views\CalculatorView.g.cs
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\obj\Debug\App.g.cs
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\obj\Debug\MVVM_Demo_Calculator_MarkupCompile.cache
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\obj\Debug\MVVM_Demo_Calculator_MarkupCompile.lref
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\obj\Debug\Views\CalculatorView.baml
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\obj\Debug\MVVM_Demo_Calculator.g.resources
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\obj\Debug\MVVM_Demo_Calculator.Properties.Resources.resources
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\obj\Debug\MVVM_Demo_Calculator.csproj.GenerateResource.cache
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\obj\Debug\MVVM_Demo_Calculator.exe
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\obj\Debug\MVVM_Demo_Calculator.pdb
+C:\Users\Arvind.Sahu\source\repos\MVVM_Demo_Calculator\MVVM_Demo_Calculator\obj\Debug\GeneratedInternalTypeHelper.g.cs

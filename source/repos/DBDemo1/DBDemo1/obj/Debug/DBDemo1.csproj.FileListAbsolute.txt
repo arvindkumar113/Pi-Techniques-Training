@@ -1,0 +1,16 @@
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\obj\Debug\DBDemo1.csprojAssemblyReference.cache
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\obj\Debug\DataDML.g.cs
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\obj\Debug\MainWindow.g.cs
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\obj\Debug\App.g.cs
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\obj\Debug\DBDemo1_MarkupCompile.cache
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\obj\Debug\DBDemo1_MarkupCompile.lref
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\bin\Debug\DBDemo1.exe.config
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\bin\Debug\DBDemo1.exe
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\bin\Debug\DBDemo1.pdb
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\obj\Debug\DataDML.baml
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\obj\Debug\MainWindow.baml
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\obj\Debug\DBDemo1.g.resources
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\obj\Debug\DBDemo1.Properties.Resources.resources
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\obj\Debug\DBDemo1.csproj.GenerateResource.cache
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\obj\Debug\DBDemo1.exe
+C:\Users\Arvind.Sahu\source\repos\DBDemo1\DBDemo1\obj\Debug\DBDemo1.pdb

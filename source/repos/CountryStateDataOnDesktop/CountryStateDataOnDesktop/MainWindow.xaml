@@ -1,0 +1,52 @@
+﻿<Window x:Class="CountryStateDataOnDesktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CountryStateDataOnDesktop"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height=" 1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="10" Orientation="Horizontal" HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <ComboBox Name="cmbCountry" Width="200" Height="50"  IsEnabled="True" SelectedItem="India"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Margin="10" Orientation="Horizontal" HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <ComboBox Name="state" Width="200" Height="50"  IsEnabled="True" SelectedItem="India"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" >
+            <RichTextBox>
+                
+            </RichTextBox>
+        </StackPanel>
+
+
+
+    </Grid>
+</Window>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

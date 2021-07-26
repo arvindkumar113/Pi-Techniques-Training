@@ -274,6 +274,9 @@ select sod.product_no, pm.description, sum(qty_ordered) as [Quantity ordered] fr
 --38) Find the product_no and description of moving products.
 --select product_no from Product_master, 
 
+select distinct pm.Description, pm.product_no from Product_master as pm, sales_order_details as sod where  sod.product_no=pm.Product_no
+
+
 --39) Find the names of clients who have purchased ‘CD Drive’
 select * from Client_master where Client_no in (select Client_no from sales_order where s_order_no in (select s_order_no from sales_order_details where product_no in(select product_no from Product_master where Description='CD Drive')) )
 
@@ -598,9 +601,8 @@ exec proc1 @order_number='O10008'
 -------------------------11. Functions---------------
 
 
-
 --91. Take the city name and return total no of customer count in the city
-create function GetClientCount(@cityname varchar(20))
+alter function GetClientCount(@cityname varchar(20))
 returns int as
 Begin 
 	declare @ret int;
@@ -609,11 +611,14 @@ Begin
 		set @ret=0;
 	return @ret;
 end
+
+
+select dbo.GetClientCount('Bombay')
 	
 
 --92. Take salesman name and return total order count 
 create function GetOrderCountBySalesman(@salesmanname varchar(20))
-return int as
+returns int as
 Begin
 	declare @ret1 int;
 	select @ret1=count(s_order_no) from sales_order where salesman_no in(select salesman_no from Salesman_master where salesman_name=@salesmanname)
@@ -622,10 +627,12 @@ Begin
 	return @ret1;
 end
 
+select dbo.GetOrderCountBySalesman('Kiran')
+
 --93. Write a function which takes salesman name and return target to 
 --get.
 create function GetTargetToGetBySalesman (@name as varchar(20))
-return numeric(6,2) as
+returns numeric(6,2) as
 Begin 
 	declare @ret3 numeric(6,2);
 	select @ret3=tgt_to_get from Salesman_master where salesman_name=@name
@@ -634,12 +641,13 @@ Begin
 	return @ret3;
 end
 
+select dbo.GetTargetToGetBySalesman('Kiran')
 
 --94.Write a function which will return total target to get by all the 
---salesmancreate function GetAllTgtToGet() return (numeric(6,2)) asBegin	declare @ret4 numeric(6,2);	select @ret4=sum(tgt_to_get) from Salesman_master	if(@ret4 is null)		set @ret4=0.00;	return @ret4;end--95. Take order status as a parameter and return total order count for 
+--salesmancreate function GetAllTgtToGet() returns numeric(6,2) asBegin	declare @ret4 numeric(6,2);	select @ret4=sum(tgt_to_get) from Salesman_master	if(@ret4 is null)		set @ret4=0.00;	return @ret4;endselect dbo.GetAllTgtToGet()--95. Take order status as a parameter and return total order count for 
 --the order status
 create function GetTotalOrderCountByOrderStatus(@order_status varchar(20))
-return int as
+returns int as
 Begin 
 	declare @ret5 int;
 	select @ret5= count(s_order_no) from sales_order where order_status=@order_status
@@ -648,24 +656,27 @@ Begin
 	return @ret5
 end
 
+select dbo.GetTotalOrderCountByOrderStatus('In Process')
+
 --96. Take year and month as a parameter to a function and return order 
 --count
 create function GetOrderCountByYearAndMonth(@dat date)
-return int as
+returns int as
 Begin
 	declare @ret6 int;
 	select @ret6=count(s_order_no) from sales_order where (datepart(yyyy, s_order_date)=datepart(yyyy, @dat)) and (datepart(mm, s_order_date)=datepart(mm,@dat))
-	if(@re6 is null)
-		set @re6=0;
+	if(@ret6 is null)
+		set @ret6=0;
 	return @ret6;
 end
 
+select dbo.GetOrderCountByYearAndMonth('24-may-1996')
 
 
 --97.Take s_order_no as a parameter to a function and return total bill 
 --amount 
 create function GetTotalBill(@order_number varchar(6))
-return nmeric(10,2) as
+returns numeric(10,2) as
 Begin 
 	declare @ret7 numeric(10,2);
 	select @ret7=sum(qty_ordered*product_rate) from sales_order_details where s_order_no=@order_number
@@ -674,9 +685,12 @@ Begin
 	return @ret7;
 end
 
+select dbo.GetTotalBill('O10008')
+
+
 --98. Return total salesman count in the city Mumbai
 create function GetTotalSalesmanCountInMumbai()
-return int as
+returns int as
 Begin
 	declare @ret8 int;
 	select @ret8=count(salesman_no) from Salesman_master where city='Mumbai'
@@ -685,9 +699,12 @@ Begin
 	return @ret8;
 end
 
+
+select dbo.GetTotalSalesmanCountInMumbai()
+
 --99.Take state name and return total client in the state
 create function GetClientCountFromState(@state_name varchar(20))
-return int as
+returns int as
 Begin
 	declare @ret9 int;
 	select @ret9=count(Client_no) from Client_master where State=@state_name
@@ -696,5 +713,7 @@ Begin
 	return @ret9;
 end
 
+select dbo.GetClientCountFromState('Maharashtra')
+
 --100. Take city name as parameter and return total amount of balance 
---due for the citycreate function GetTotalDueBalanceInCity(@city_name varchar(20))return numeric(10,2) asBegin	declare @ret10 numeric(10,2);	select @ret20=sum(Balance_due) from Client_master where City=@city_name;	if(@ret10 is null)		set @ret10=0;	return @ret10;
+--due for the citycreate function GetTotalDueBalanceInCity(@city_name varchar(20))returns numeric(10,2) asBegin	declare @ret10 numeric(10,2);	select @ret10=sum(Balance_due) from Client_master where City=@city_name;	if(@ret10 is null)		set @ret10=0;	return @ret10;endselect dbo.GetTotalDueBalanceInCity('Bombay')
